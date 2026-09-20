@@ -1,0 +1,8 @@
+20:07:48 start BH full-budget x5, budget=396993
+20:24:39 start BH full-budget x5, budget=396993
+20:24:57 seed=0 F=8.9546 fe=881950 hit=False 18.2s
+20:25:15 seed=1 F=8.9546 fe=865427 hit=False 18.0s
+20:25:33 seed=2 F=8.9546 fe=870263 hit=False 18.0s
+20:25:51 seed=3 F=6.9647 fe=869705 hit=False 17.7s
+20:26:09 seed=4 F=7.9597 fe=871379 hit=False 17.8s
+20:26:09 DONE median=8.9546 hit=0/5 elapsed=90.0s

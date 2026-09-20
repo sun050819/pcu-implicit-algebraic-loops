@@ -1,0 +1,54 @@
+{
+  "problem": "CEC2017 F5 M_orth (30D)",
+  "algorithm": "BIPOP-CMA-ES (cma 4.5.0, bipop=True, restarts<=30)",
+  "budget_fe": 396993,
+  "n_runs": 5,
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916
+  ],
+  "hit_threshold": "F<1e-4",
+  "median_f": 471.985558693434,
+  "hits": 0,
+  "runs": [
+    {
+      "seed": 20260912,
+      "f": 489.5114030787823,
+      "fe_used": 397058,
+      "hit": false,
+      "elapsed_s": 41.98
+    },
+    {
+      "seed": 20260913,
+      "f": 323.70209755160965,
+      "fe_used": 397108,
+      "hit": false,
+      "elapsed_s": 48.98
+    },
+    {
+      "seed": 20260914,
+      "f": 471.985558693434,
+      "fe_used": 397174,
+      "hit": false,
+      "elapsed_s": 54.61
+    },
+    {
+      "seed": 20260915,
+      "f": 382.0586266817131,
+      "fe_used": 397007,
+      "hit": false,
+      "elapsed_s": 52.05
+    },
+    {
+      "seed": 20260916,
+      "f": 498.4671116653528,
+      "fe_used": 397037,
+      "hit": false,
+      "elapsed_s": 41.25
+    }
+  ],
+  "note": "Same budget and seeds as Table II; BIPOP is the CEC-2013 champion restart variant, included to rule out the 'plain-CMA-ES artifact' reading of the main comparison."
+}

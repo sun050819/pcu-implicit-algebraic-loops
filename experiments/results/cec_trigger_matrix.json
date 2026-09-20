@@ -1,0 +1,66 @@
+{
+  "F5_Rastrigin": {
+    "M_raw": {
+      "trigger": 0,
+      "hit": 0,
+      "n": 10,
+      "trigger_rate": 0.0,
+      "hit_rate": 0.0
+    },
+    "M_orth": {
+      "trigger": 10,
+      "hit": 10,
+      "n": 10,
+      "trigger_rate": 1.0,
+      "hit_rate": 1.0
+    }
+  },
+  "F9_Levy": {
+    "M_raw": {
+      "trigger": 0,
+      "hit": 0,
+      "n": 10,
+      "trigger_rate": 0.0,
+      "hit_rate": 0.0
+    },
+    "M_orth": {
+      "trigger": 0,
+      "hit": 0,
+      "n": 10,
+      "trigger_rate": 0.0,
+      "hit_rate": 0.0
+    }
+  },
+  "F4_Rosenbrock": {
+    "trigger": 0,
+    "hit": 0,
+    "n": 10,
+    "trigger_rate": 0.0,
+    "hit_rate": 0.0,
+    "mode": "blackbox_fd_full"
+  },
+  "F6_SchafferF7": {
+    "trigger": 0,
+    "hit": 0,
+    "n": 10,
+    "trigger_rate": 0.0,
+    "hit_rate": 0.0,
+    "mode": "blackbox_fd_full"
+  },
+  "F8_NonContRastrigin": {
+    "trigger": 0,
+    "hit": 0,
+    "n": 10,
+    "trigger_rate": 0.0,
+    "hit_rate": 0.0,
+    "mode": "blackbox_fd_full"
+  },
+  "F10_Schwefel": {
+    "trigger": 0,
+    "hit": 0,
+    "n": 10,
+    "trigger_rate": 0.0,
+    "hit_rate": 0.0,
+    "mode": "blackbox_fd_full"
+  }
+}

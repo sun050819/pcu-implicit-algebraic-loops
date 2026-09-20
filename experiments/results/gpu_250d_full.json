@@ -1,0 +1,101 @@
+{
+  "problem": "orthogonalized A^2EP 250D",
+  "T": 19.53125,
+  "n_runs": 10,
+  "rows": [
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 1.549988404292435e-08,
+      "T": 19.5308,
+      "mode": "cand_direct",
+      "seed": 20260916,
+      "elapsed_s": 2.8
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 1.0084098889251436e-08,
+      "T": 19.5303,
+      "mode": "cand_direct",
+      "seed": 20260917,
+      "elapsed_s": 2.5
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 8.464494882787221e-09,
+      "T": 19.5308,
+      "mode": "cand_direct",
+      "seed": 20260918,
+      "elapsed_s": 2.6
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 1.352366041373898e-08,
+      "T": 19.5314,
+      "mode": "cand_direct",
+      "seed": 20260919,
+      "elapsed_s": 2.5
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 6.652845385701767e-09,
+      "T": 19.5317,
+      "mode": "cand_direct",
+      "seed": 20260920,
+      "elapsed_s": 2.7
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 6.874911306908871e-09,
+      "T": 19.5308,
+      "mode": "cand_direct",
+      "seed": 20260921,
+      "elapsed_s": 2.3
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 6.970825694452287e-09,
+      "T": 19.5313,
+      "mode": "cand_direct",
+      "seed": 20260922,
+      "elapsed_s": 2.7
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 1.413770966962602e-08,
+      "T": 19.5323,
+      "mode": "cand_direct",
+      "seed": 20260923,
+      "elapsed_s": 2.5
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 7.948530722501346e-09,
+      "T": 19.5314,
+      "mode": "cand_direct",
+      "seed": 20260924,
+      "elapsed_s": 2.4
+    },
+    {
+      "trigger": true,
+      "hit": true,
+      "F": 7.663430778848124e-09,
+      "T": 19.5307,
+      "mode": "cand_direct",
+      "seed": 20260925,
+      "elapsed_s": 2.4
+    }
+  ],
+  "trigger": "10/10",
+  "hit": "10/10",
+  "F_min": 6.652845385701767e-09,
+  "F_max": 1.549988404292435e-08
+}

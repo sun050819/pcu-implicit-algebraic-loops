@@ -1,0 +1,18 @@
+{
+  "rows": [
+    {
+      "model": "sim_per_loop",
+      "dim": 2,
+      "y_sim": "1.570796327;1.570796327",
+      "x_pcu": "1.570796327;1.570796327",
+      "err_vs_sim": 0.0,
+      "F_at_x": 0.0,
+      "max_r_at_x": 0.0,
+      "struct_id_trigger": 1,
+      "pcu_ok": 1,
+      "jdiff_consistency": 1.4448442442471787e-11
+    }
+  ],
+  "elapsed_s": 27.4,
+  "note": "Real Simulink R2025a periodic algebraic loop: r1=y1-0.5cos(y1)-pi/2, r2=y2-0.5cos(y2)-pi/2, true solution (pi/2,pi/2). The closed model is solved by the Simulink algebraic-loop solver (y_sim); the expanded model computes the residual r(y) with real blocks; PCU runs end-to-end from x0=0 (same initial point as Simulink): structure identification (periodic trigger) -> zero-crossing candidates -> Newton -> F verification (real residual)."
+}

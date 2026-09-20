@@ -1,0 +1,26 @@
+{
+  "F4_Rastrigin": {
+    "n": 10,
+    "trigger": 10,
+    "hit": 10,
+    "hit_rate": 1.0
+  },
+  "F5_Rastrigin": {
+    "n": 10,
+    "trigger": 10,
+    "hit": 10,
+    "hit_rate": 1.0
+  },
+  "F9_Levy": {
+    "n": 10,
+    "trigger": 0,
+    "hit": 0,
+    "hit_rate": 0.0
+  },
+  "_meta": {
+    "n_runs": 10,
+    "seed0": 20260916,
+    "elapsed_s": 468.8,
+    "note": "Analytic version; F4/F5 period 19.53 (S5 scaling), F9 period 4 (0.25 scaling, sin^2 structure)"
+  }
+}

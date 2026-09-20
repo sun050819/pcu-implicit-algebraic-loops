@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aloop-system"
+version = "2.3.17"
+description = "Periodic Coordinate Unwrapping (PCU): structure-aware optimization for periodic implicit algebraic loops (CEC2017/Simulink validation, companion of an IEEE TEVC manuscript)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.2",
+    "cma>=3.3",
+    "nlopt>=2.7",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+matlab = ["matlabengine"]
+test = ["pytest>=7.0"]
+accelerate = ["numba>=0.57"]
+
+[tool.setuptools.packages.find]
+include = ["aloop*"]
+exclude = ["experiments*", "docs*", "report*", "tests*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "third_party/cec2017/tests"]
+pythonpath = ["."]

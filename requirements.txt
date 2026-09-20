@@ -1,0 +1,14 @@
+# aloop_system runtime dependencies (NumPy-side main pipeline; GPU 250-500D experiments need torch, see pyproject optional deps)
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.2
+
+# optional: Numba JIT to accelerate objective evaluation (~10x on extreme multimodal CMA-ES problems; falls back to pure NumPy if unavailable)
+numba>=0.57
+
+# tests / baselines
+pytest>=7.0
+cma>=3.3
+nlopt>=2.7

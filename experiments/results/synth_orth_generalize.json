@@ -1,0 +1,71 @@
+{
+  "D10_T1.0": {
+    "n": 50,
+    "trigger": 49,
+    "hit": 49,
+    "success_rate": 0.98,
+    "trigger_rate": 0.98
+  },
+  "D10_T2.5": {
+    "n": 50,
+    "trigger": 49,
+    "hit": 49,
+    "success_rate": 0.98,
+    "trigger_rate": 0.98
+  },
+  "D10_T19.53125": {
+    "n": 50,
+    "trigger": 50,
+    "hit": 50,
+    "success_rate": 1.0,
+    "trigger_rate": 1.0
+  },
+  "D30_T1.0": {
+    "n": 50,
+    "trigger": 40,
+    "hit": 40,
+    "success_rate": 0.8,
+    "trigger_rate": 0.8
+  },
+  "D30_T2.5": {
+    "n": 50,
+    "trigger": 40,
+    "hit": 40,
+    "success_rate": 0.8,
+    "trigger_rate": 0.8
+  },
+  "D30_T19.53125": {
+    "n": 50,
+    "trigger": 50,
+    "hit": 50,
+    "success_rate": 1.0,
+    "trigger_rate": 1.0
+  },
+  "D50_T1.0": {
+    "n": 50,
+    "trigger": 34,
+    "hit": 34,
+    "success_rate": 0.68,
+    "trigger_rate": 0.68
+  },
+  "D50_T2.5": {
+    "n": 50,
+    "trigger": 34,
+    "hit": 34,
+    "success_rate": 0.68,
+    "trigger_rate": 0.68
+  },
+  "D50_T19.53125": {
+    "n": 50,
+    "trigger": 50,
+    "hit": 50,
+    "success_rate": 1.0,
+    "trigger_rate": 1.0
+  },
+  "_meta": {
+    "n_runs": 50,
+    "family": "A2EP f(z)=sum(z^2-A*cos(2pi z/T)+c), z=M(x-o), M random-orth, o~U(-5,5)",
+    "seed0": 20260915,
+    "elapsed_s": 330.1
+  }
+}

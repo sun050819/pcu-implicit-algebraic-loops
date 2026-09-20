@@ -1,0 +1,11 @@
+{
+ "problem": "CEC2017 f5 (shifted rotated Rastrigin), D=30, official M_raw",
+ "D": 30,
+ "svd": "M_orth = U V^T from M_raw = U S V^T",
+ "||M_orth - M_raw||_2": 1.0000000000000002,
+ "||M_orth M_orth^T - I||_2": 2.1141806077878603e-15,
+ "singular_value_range_M_raw": [
+  0.9999999999999966,
+  2.0000000000000004
+ ]
+}

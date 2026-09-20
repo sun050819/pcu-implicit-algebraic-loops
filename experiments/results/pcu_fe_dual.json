@@ -1,0 +1,68 @@
+{
+  "problem": "CEC2017 F5 M_orth 30D analytic-H PCU (Simulink block-derivative scenario)",
+  "seeds": [
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920,
+    20260921,
+    20260922,
+    20260923
+  ],
+  "fe_blackbox_reference": 396993,
+  "s20260914": {
+    "hit": true,
+    "F": 7.084e-05,
+    "fe_verify": 1
+  },
+  "s20260915": {
+    "hit": true,
+    "F": 5.18e-05,
+    "fe_verify": 1
+  },
+  "s20260916": {
+    "hit": true,
+    "F": 8.168e-05,
+    "fe_verify": 1
+  },
+  "s20260917": {
+    "hit": true,
+    "F": 6.458e-05,
+    "fe_verify": 1
+  },
+  "s20260918": {
+    "hit": true,
+    "F": 7.779e-05,
+    "fe_verify": 1
+  },
+  "s20260919": {
+    "hit": true,
+    "F": 6.579e-05,
+    "fe_verify": 1
+  },
+  "s20260920": {
+    "hit": true,
+    "F": 7.46e-05,
+    "fe_verify": 1
+  },
+  "s20260921": {
+    "hit": true,
+    "F": 6.776e-05,
+    "fe_verify": 1
+  },
+  "s20260922": {
+    "hit": true,
+    "F": 7.621e-05,
+    "fe_verify": 1
+  },
+  "s20260923": {
+    "hit": true,
+    "F": 6.248e-05,
+    "fe_verify": 1
+  },
+  "hit_rate": "10/10",
+  "fe_verify_max": 1
+}

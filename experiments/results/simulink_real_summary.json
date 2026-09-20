@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "model": "sim_lin_loop",
+      "dim": 1,
+      "y_sim": 0.6666666666666666,
+      "x_hgca": 0.6666666666666337,
+      "err_vs_sim": 3.297362383136715e-14,
+      "conv": 1,
+      "struct_id_trigger": 0,
+      "pcu_trigger": 0,
+      "stage": "direct_newton"
+    },
+    {
+      "model": "sim_nl_loop",
+      "dim": 2,
+      "y_sim": "1.778648448;1.554530101",
+      "x_hgca": "1.778648448;1.554530101",
+      "r_norm": 1.3877787807814457e-16,
+      "err_vs_sim": 0.0,
+      "conv": 1,
+      "struct_id_trigger": 0,
+      "pcu_trigger": 0,
+      "stage": "direct_newton"
+    }
+  ],
+  "note": "Real MATLAB R2025a Simulink algebraic loop: the closed model is solved by the Simulink algebraic-loop solver (y_sim); the expanded model (same block set) computes the loop function G(y) and the residual r(y)=y-G(y) with real blocks; HGCA solves r(y)=0 and is compared with y_sim; PCU/struct_id is expected to not trigger (no periodic structure)."
+}

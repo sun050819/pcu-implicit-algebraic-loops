@@ -1,0 +1,164 @@
+{
+  "problem": "CEC2017 f5 M_orth",
+  "dim": 30,
+  "budget": 100000,
+  "stagnation_gen": 100,
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916
+  ],
+  "pure": [
+    {
+      "seed": 20260912,
+      "f": 349.22530188873,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 0,
+      "fe_used": 100000,
+      "time_s": 6.679842948913574
+    },
+    {
+      "seed": 20260913,
+      "f": 259.6823167647925,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 0,
+      "fe_used": 100000,
+      "time_s": 6.456680774688721
+    },
+    {
+      "seed": 20260914,
+      "f": 502.4399839868449,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 0,
+      "fe_used": 100000,
+      "time_s": 7.140835762023926
+    },
+    {
+      "seed": 20260915,
+      "f": 450.709744778952,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 0,
+      "fe_used": 100000,
+      "time_s": 6.9774603843688965
+    },
+    {
+      "seed": 20260916,
+      "f": 410.9121846981471,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 0,
+      "fe_used": 100000,
+      "time_s": 7.131667852401733
+    }
+  ],
+  "random_restart": [
+    {
+      "seed": 20260912,
+      "f": 284.5554422748749,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 41,
+      "fe_used": 100000,
+      "time_s": 7.077648401260376
+    },
+    {
+      "seed": 20260913,
+      "f": 259.6823167647925,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 67,
+      "fe_used": 100000,
+      "time_s": 6.271986722946167
+    },
+    {
+      "seed": 20260914,
+      "f": 286.5441674222492,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 41,
+      "fe_used": 100000,
+      "time_s": 6.474119424819946
+    },
+    {
+      "seed": 20260915,
+      "f": 279.5806570650467,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 42,
+      "fe_used": 100000,
+      "time_s": 6.568314075469971
+    },
+    {
+      "seed": 20260916,
+      "f": 185.06145909162464,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 54,
+      "fe_used": 100000,
+      "time_s": 6.477398157119751
+    }
+  ],
+  "pcu_restart": [
+    {
+      "seed": 20260912,
+      "f": 284.5554422748749,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 41,
+      "fe_used": 100000,
+      "time_s": 83.93599128723145,
+      "pcu_tries": 41,
+      "pcu_ok": 0
+    },
+    {
+      "seed": 20260913,
+      "f": 259.6823167647925,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 67,
+      "fe_used": 100000,
+      "time_s": 129.98257684707642,
+      "pcu_tries": 67,
+      "pcu_ok": 0
+    },
+    {
+      "seed": 20260914,
+      "f": 286.5441674222492,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 41,
+      "fe_used": 100000,
+      "time_s": 83.28617072105408,
+      "pcu_tries": 41,
+      "pcu_ok": 0
+    },
+    {
+      "seed": 20260915,
+      "f": 279.5806570650467,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 42,
+      "fe_used": 100000,
+      "time_s": 84.30848836898804,
+      "pcu_tries": 41,
+      "pcu_ok": 0
+    },
+    {
+      "seed": 20260916,
+      "f": 185.06145909162464,
+      "hit": false,
+      "first_hit_fe": null,
+      "restarts": 54,
+      "fe_used": 100000,
+      "time_s": 105.18825888633728,
+      "pcu_tries": 54,
+      "pcu_ok": 0
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+ "device": "cpu",
+ "protocol": "r3_gpu_full.full_pcu (torch FP64 batch, 64-point-per-dim scan)",
+ "250": {
+  "n_runs": 5,
+  "n_trigger": 5,
+  "n_hit": 5,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.4066765530174052e-08,
+    "T": 19.5322,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 3.2
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 7.0764230031272746e-09,
+    "T": 19.5309,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 2.8
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.553750195171233e-08,
+    "T": 19.5316,
+    "mode": "cand_direct",
+    "seed": 20260914,
+    "elapsed_s": 3.0
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 4.260609642869895e-09,
+    "T": 19.5318,
+    "mode": "cand_direct",
+    "seed": 20260915,
+    "elapsed_s": 3.1
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.549988759563803e-08,
+    "T": 19.5308,
+    "mode": "cand_direct",
+    "seed": 20260916,
+    "elapsed_s": 3.2
+   }
+  ]
+ },
+ "300": {
+  "n_runs": 3,
+  "n_trigger": 3,
+  "n_hit": 3,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.3857899716640532e-08,
+    "T": 19.5304,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 4.3
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.295036966553198e-08,
+    "T": 19.5301,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 4.3
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.1031739077793645e-08,
+    "T": 19.5319,
+    "mode": "cand_direct",
+    "seed": 20260914,
+    "elapsed_s": 4.2
+   }
+  ]
+ },
+ "400": {
+  "n_runs": 3,
+  "n_trigger": 3,
+  "n_hit": 3,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.605573096696844e-08,
+    "T": 19.5317,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 8.8
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.515628689219284e-08,
+    "T": 19.5313,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 8.5
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.6646925615759756e-08,
+    "T": 19.5309,
+    "mode": "cand_direct",
+    "seed": 20260914,
+    "elapsed_s": 8.7
+   }
+  ]
+ },
+ "500": {
+  "n_runs": 2,
+  "n_trigger": 2,
+  "n_hit": 2,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.0093396340948857e-08,
+    "T": 19.5308,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 16.1
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 9.39534317012658e-09,
+    "T": 19.5318,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 15.6
+   }
+  ]
+ },
+ "elapsed_s": 85.6
+}

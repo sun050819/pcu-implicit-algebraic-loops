@@ -1,0 +1,561 @@
+{
+  "n_funcs": 30,
+  "elapsed_s": 1715.9,
+  "detail": [
+    {
+      "function": "f4",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 1.2
+    },
+    {
+      "function": "f4",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 1.2
+    },
+    {
+      "function": "f5",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 23.8
+    },
+    {
+      "function": "f5",
+      "variant": "orth",
+      "trigger": true,
+      "hit": true,
+      "tag": "blackbox_pcu_ok",
+      "T_est": 19.5312,
+      "time_s": 7.3
+    },
+    {
+      "function": "f9",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 35.9
+    },
+    {
+      "function": "f9",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 36.0
+    },
+    {
+      "function": "f10",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 13.7
+    },
+    {
+      "function": "f10",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 6.0
+    },
+    {
+      "function": "f1",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 5.6
+    },
+    {
+      "function": "f1",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 13.3
+    },
+    {
+      "function": "f3",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 5.5
+    },
+    {
+      "function": "f3",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 19.5
+    },
+    {
+      "function": "f2",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 2.3
+    },
+    {
+      "function": "f2",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 1.3
+    },
+    {
+      "function": "f6",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 15.6
+    },
+    {
+      "function": "f6",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 27.7
+    },
+    {
+      "function": "f7",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 44.8
+    },
+    {
+      "function": "f7",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": 5.0,
+      "time_s": 16.1
+    },
+    {
+      "function": "f8",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 30.7
+    },
+    {
+      "function": "f8",
+      "variant": "orth",
+      "trigger": true,
+      "hit": true,
+      "tag": "blackbox_pcu_ok",
+      "T_est": 19.5319,
+      "time_s": 9.7
+    },
+    {
+      "function": "f11",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 6.3
+    },
+    {
+      "function": "f11",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 12.7
+    },
+    {
+      "function": "f12",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 14.8
+    },
+    {
+      "function": "f12",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 19.0
+    },
+    {
+      "function": "f13",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 34.4
+    },
+    {
+      "function": "f13",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 57.4
+    },
+    {
+      "function": "f14",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 89.6
+    },
+    {
+      "function": "f14",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 61.0
+    },
+    {
+      "function": "f15",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 25.4
+    },
+    {
+      "function": "f15",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 18.0
+    },
+    {
+      "function": "f16",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 15.4
+    },
+    {
+      "function": "f16",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 17.2
+    },
+    {
+      "function": "f17",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 7.4
+    },
+    {
+      "function": "f17",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 7.4
+    },
+    {
+      "function": "f18",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 42.3
+    },
+    {
+      "function": "f18",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 35.1
+    },
+    {
+      "function": "f19",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 6.5
+    },
+    {
+      "function": "f19",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 30.4
+    },
+    {
+      "function": "f20",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 61.9
+    },
+    {
+      "function": "f20",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 62.0
+    },
+    {
+      "function": "f21",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 104.3
+    },
+    {
+      "function": "f21",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f22",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 40.5
+    },
+    {
+      "function": "f22",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f23",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 30.4
+    },
+    {
+      "function": "f23",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f24",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 187.6
+    },
+    {
+      "function": "f24",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f25",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 17.3
+    },
+    {
+      "function": "f25",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f26",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 163.5
+    },
+    {
+      "function": "f26",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f27",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 160.1
+    },
+    {
+      "function": "f27",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f28",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 12.9
+    },
+    {
+      "function": "f28",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f29",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 39.8
+    },
+    {
+      "function": "f29",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    },
+    {
+      "function": "f30",
+      "variant": "raw",
+      "trigger": false,
+      "hit": false,
+      "tag": null,
+      "T_est": null,
+      "time_s": 18.3
+    },
+    {
+      "function": "f30",
+      "variant": "orth",
+      "trigger": false,
+      "hit": false,
+      "tag": "composite_na",
+      "T_est": null,
+      "time_s": 0.0,
+      "note": "Composition function (rotations_cf multi-rotation mix); structurally not applicable"
+    }
+  ],
+  "raw_trigger": 0,
+  "raw_hit": 0,
+  "orth_trigger": 2,
+  "orth_hit": 2,
+  "n_composite_na": 10
+}

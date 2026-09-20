@@ -1,0 +1,18 @@
+{
+  "s20260921": {
+    "trigger": true,
+    "hit": true,
+    "F": 3.066316089928023e-08,
+    "T": 19.5306,
+    "mode": "cand_direct",
+    "elapsed_s": 14.88
+  },
+  "s20260922": {
+    "trigger": true,
+    "hit": true,
+    "F": 2.3589398878698375e-08,
+    "T": 19.5306,
+    "mode": "cand_direct",
+    "elapsed_s": 13.81
+  }
+}

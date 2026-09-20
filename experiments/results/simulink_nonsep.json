@@ -1,0 +1,92 @@
+{
+  "problem": "Simulink nonseparable periodic algebraic loop (rotated Rastrigin gradient, 30D)",
+  "T": 19.53125,
+  "n_seeds": 5,
+  "seeds": [
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918
+  ],
+  "rows": [
+    {
+      "seed": 20260914,
+      "F_simulink": 2.6131997386415435e-27,
+      "dist_global_o": 347.03395156035066,
+      "F_fsolve": 2.9803829451705405e-13,
+      "fsolve_flag": 1,
+      "status": "ok",
+      "PCU": {
+        "hit": true,
+        "F": 7.084e-05,
+        "fe_verify": 1
+      },
+      "F_pcu": 7.084e-05,
+      "dist_pcu_o": 0.0
+    },
+    {
+      "seed": 20260915,
+      "F_simulink": 9.056230319467138e-28,
+      "dist_global_o": 320.82512520922006,
+      "F_fsolve": 4.685494175978889e-24,
+      "fsolve_flag": 1,
+      "status": "ok",
+      "PCU": {
+        "hit": true,
+        "F": 5.18e-05,
+        "fe_verify": 1
+      },
+      "F_pcu": 5.18e-05,
+      "dist_pcu_o": 0.0
+    },
+    {
+      "seed": 20260916,
+      "F_simulink": 2.0391880654861022e-27,
+      "dist_global_o": 423.15193251142557,
+      "F_fsolve": 6.491849711030814e-22,
+      "fsolve_flag": 1,
+      "status": "ok",
+      "PCU": {
+        "hit": true,
+        "F": 8.168e-05,
+        "fe_verify": 1
+      },
+      "F_pcu": 8.168e-05,
+      "dist_pcu_o": 0.0
+    },
+    {
+      "seed": 20260917,
+      "F_simulink": 1.7233129140921574e-27,
+      "dist_global_o": 380.41209709809084,
+      "F_fsolve": 1.752956893426684e-13,
+      "fsolve_flag": 1,
+      "status": "ok",
+      "PCU": {
+        "hit": true,
+        "F": 6.458e-05,
+        "fe_verify": 1
+      },
+      "F_pcu": 6.458e-05,
+      "dist_pcu_o": 0.0
+    },
+    {
+      "seed": 20260918,
+      "F_simulink": 3.0036744121063446e-27,
+      "dist_global_o": 377.6071858903909,
+      "F_fsolve": 4.528478440445321e-22,
+      "fsolve_flag": 1,
+      "status": "ok",
+      "PCU": {
+        "hit": true,
+        "F": 7.779e-05,
+        "fe_verify": 1
+      },
+      "F_pcu": 7.779e-05,
+      "dist_pcu_o": 0.0
+    }
+  ],
+  "simulink_hits_global": 0,
+  "pcu_hits": 5,
+  "elapsed_s": null
+}

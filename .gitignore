@@ -1,0 +1,92 @@
+# ---- sensitive information: never committed ----
+.env
+*.env
+**/.env
+
+# ---- IDE / local config ----
+.idea/
+.vscode/
+*.iml
+.workbuddy/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- LaTeX intermediate files ----
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+_preview/
+.preview/
+
+# NOTE: *.log is intentionally NOT ignored here; experiments/results/*.log
+# files are committed experiment logs (part of the 59-file result corpus).
+
+# ---- experiment outputs (regenerable) ----
+*.out.txt
+nohup.out
+
+# ---- smoke-test artifacts (not committed) ----
+_smoke_run_*.py
+*_smoke_tmp.py
+*_smoke*.json
+*_smoke*.csv
+
+# ---- backup files ----
+*.bak
+
+# ---- system files ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+
+# ---- CMA-ES runtime output ----
+outcmaes/
+*.dat
+*.json2
+
+
+# ---- MATLAB runtime ----
+*.mat.tmp
+*.slx
+
+# ---- internal tools / historical archives: not uploaded to GitHub ----
+archive/
+
+
+# ---- manuscript artifacts / internal materials (not uploaded to GitHub) ----
+docs/tevc_gap_analysis.md
+tools/i18n_*.py
+docs/save_system_fix_report.md
+
+
+# ---- temporary attachment dumps ----
+_tmp_att.bin
+_attach*.bin
+
+# ---- Chinese-draft figures (not uploaded) ----
+experiments/figures/fig_cn*.png
+
+# Manuscript directory: kept private during single-blind review, released upon acceptance.
+# Only paper text (TeX/PDF/Word) is excluded; figure-generation scripts and reproducibility
+# materials should be moved out of paper/ into a reproducibility/ directory before public release.
+paper/
+
+# ---- smoke drivers (dev-only, not experiment scripts) ----
+experiments/smoke_driver.py
+experiments/paper_smoke.py
+
+# Run logs
+experiments/results/run_*_log.txt

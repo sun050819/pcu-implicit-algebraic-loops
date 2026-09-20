@@ -1,0 +1,137 @@
+{
+ "vote_on": {
+  "n_runs": 10,
+  "n_trigger": 10,
+  "n_hit": 10,
+  "rows": [
+   {
+    "seed": 20260912,
+    "trigger": true,
+    "hit": true,
+    "F": 2.928453923800589e-09
+   },
+   {
+    "seed": 20260913,
+    "trigger": true,
+    "hit": true,
+    "F": 2.8832669585199255e-09
+   },
+   {
+    "seed": 20260914,
+    "trigger": true,
+    "hit": true,
+    "F": 3.0180000720747557e-09
+   },
+   {
+    "seed": 20260915,
+    "trigger": true,
+    "hit": true,
+    "F": 3.171040319216445e-09
+   },
+   {
+    "seed": 20260916,
+    "trigger": true,
+    "hit": true,
+    "F": 3.5359928318712264e-09
+   },
+   {
+    "seed": 20260917,
+    "trigger": true,
+    "hit": true,
+    "F": 3.181172658628384e-09
+   },
+   {
+    "seed": 20260918,
+    "trigger": true,
+    "hit": true,
+    "F": 3.1742821704483504e-09
+   },
+   {
+    "seed": 20260919,
+    "trigger": true,
+    "hit": true,
+    "F": 2.9899602793648228e-09
+   },
+   {
+    "seed": 20260920,
+    "trigger": true,
+    "hit": true,
+    "F": 3.337177645335032e-09
+   },
+   {
+    "seed": 20260921,
+    "trigger": true,
+    "hit": true,
+    "F": 3.094438483230988e-09
+   }
+  ]
+ },
+ "vote_off": {
+  "n_runs": 10,
+  "n_trigger": 10,
+  "n_hit": 10,
+  "rows": [
+   {
+    "seed": 20260912,
+    "trigger": true,
+    "hit": true,
+    "F": 2.92848056915318e-09
+   },
+   {
+    "seed": 20260913,
+    "trigger": true,
+    "hit": true,
+    "F": 2.8832669585199255e-09
+   },
+   {
+    "seed": 20260914,
+    "trigger": true,
+    "hit": true,
+    "F": 3.0180000720747557e-09
+   },
+   {
+    "seed": 20260915,
+    "trigger": true,
+    "hit": true,
+    "F": 3.171040319216445e-09
+   },
+   {
+    "seed": 20260916,
+    "trigger": true,
+    "hit": true,
+    "F": 3.5359928318712264e-09
+   },
+   {
+    "seed": 20260917,
+    "trigger": true,
+    "hit": true,
+    "F": 3.181172658628384e-09
+   },
+   {
+    "seed": 20260918,
+    "trigger": true,
+    "hit": true,
+    "F": 3.1742821704483504e-09
+   },
+   {
+    "seed": 20260919,
+    "trigger": true,
+    "hit": true,
+    "F": 2.9899602793648228e-09
+   },
+   {
+    "seed": 20260920,
+    "trigger": true,
+    "hit": true,
+    "F": 3.337177645335032e-09
+   },
+   {
+    "seed": 20260921,
+    "trigger": true,
+    "hit": true,
+    "F": 3.094438483230988e-09
+   }
+  ]
+ },
+ "elapsed_s": 383.5
+}

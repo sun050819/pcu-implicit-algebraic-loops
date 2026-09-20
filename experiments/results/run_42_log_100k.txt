@@ -1,0 +1,83 @@
+﻿============================================================
+PCU + EA Hybrid Experiment
+============================================================
+
+Seed 20260912 (1/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=3.50e+02 (hit=False)
+  CMA-ES+PCU: F=2.56e+02 (hit=False, restarts=0, pcu_tries=100, pcu_ok=0)
+  SHADE pure: F=5.18e+01 (hit=False)
+  SHADE+PCU: F=5.18e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260913 (2/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=2.60e+02 (hit=False)
+  CMA-ES+PCU: F=2.38e+02 (hit=False, restarts=0, pcu_tries=126, pcu_ok=0)
+  SHADE pure: F=4.13e+01 (hit=False)
+  SHADE+PCU: F=4.13e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260914 (3/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=5.02e+02 (hit=False)
+  CMA-ES+PCU: F=2.57e+02 (hit=False, restarts=0, pcu_tries=82, pcu_ok=0)
+  SHADE pure: F=5.00e+01 (hit=False)
+  SHADE+PCU: F=5.00e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260915 (4/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=4.51e+02 (hit=False)
+  CMA-ES+PCU: F=2.50e+02 (hit=False, restarts=0, pcu_tries=82, pcu_ok=0)
+  SHADE pure: F=3.92e+01 (hit=False)
+  SHADE+PCU: F=1.51e+02 (hit=False, restarts=0, pcu_tries=9, pcu_ok=0)
+
+Seed 20260916 (5/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=4.11e+02 (hit=False)
+  CMA-ES+PCU: F=1.80e+02 (hit=False, restarts=0, pcu_tries=117, pcu_ok=0)
+  SHADE pure: F=5.13e+01 (hit=False)
+  SHADE+PCU: F=5.13e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260917 (6/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=5.07e+02 (hit=False)
+  CMA-ES+PCU: F=2.64e+02 (hit=False, restarts=0, pcu_tries=91, pcu_ok=0)
+  SHADE pure: F=4.46e+01 (hit=False)
+  SHADE+PCU: F=4.46e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260918 (7/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=3.08e+02 (hit=False)
+  CMA-ES+PCU: F=2.08e+02 (hit=False, restarts=0, pcu_tries=108, pcu_ok=0)
+  SHADE pure: F=4.11e+01 (hit=False)
+  SHADE+PCU: F=5.52e+01 (hit=False, restarts=0, pcu_tries=3, pcu_ok=0)
+
+Seed 20260919 (8/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=3.82e+02 (hit=False)
+  CMA-ES+PCU: F=2.51e+02 (hit=False, restarts=0, pcu_tries=109, pcu_ok=0)
+  SHADE pure: F=4.66e+01 (hit=False)
+  SHADE+PCU: F=4.66e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+Seed 20260920 (9/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=4.47e+02 (hit=False)
+  CMA-ES+PCU: F=1.94e+02 (hit=False, restarts=0, pcu_tries=98, pcu_ok=0)
+  SHADE pure: F=4.60e+01 (hit=False)
+  SHADE+PCU: F=6.47e+01 (hit=False, restarts=0, pcu_tries=1, pcu_ok=0)
+
+Seed 20260921 (10/10)...
+  PCU direct: no trigger
+  CMA-ES pure: F=4.04e+02 (hit=False)
+  CMA-ES+PCU: F=2.19e+02 (hit=False, restarts=0, pcu_tries=125, pcu_ok=0)
+  SHADE pure: F=4.98e+01 (hit=False)
+  SHADE+PCU: F=4.98e+01 (hit=False, restarts=0, pcu_tries=0, pcu_ok=0)
+
+============================================================
+SUMMARY
+============================================================
+cmaes pure: 0/10 hits, median F=4.07e+02
+cmaes pcu_restart: 0/10 hits, median F=2.44e+02
+shade pure: 0/10 hits, median F=4.63e+01
+shade pcu_restart: 0/10 hits, median F=5.07e+01
+
+Results saved to experiments/results/pcu_ea_hybrid.json

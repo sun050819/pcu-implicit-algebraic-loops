@@ -1,0 +1,23 @@
+{
+  "base": {
+    "n_runs": 50,
+    "n_ok": 0,
+    "success_rate": 0.0,
+    "median_fb": 57.70753708141982,
+    "pcu_stage": 0
+  },
+  "auto_raw": {
+    "n_runs": 50,
+    "n_ok": 0,
+    "success_rate": 0.0,
+    "median_fb": 57.70753708141982,
+    "pcu_stage": 0
+  },
+  "auto_orth": {
+    "n_runs": 50,
+    "n_ok": 50,
+    "success_rate": 1.0,
+    "median_fb": 0.0,
+    "pcu_stage": 50
+  }
+}

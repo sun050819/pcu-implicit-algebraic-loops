@@ -1,0 +1,115 @@
+{
+ "D": 500,
+ "seeds": [
+  20260912,
+  20260913,
+  20260914,
+  20260915,
+  20260916
+ ],
+ "vote_on": {
+  "n_runs": 5,
+  "n_trigger": 5,
+  "n_hit": 5,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.0093396340948857e-08,
+    "T": 19.5308,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 19.0
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 9.39534139376974e-09,
+    "T": 19.5318,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 56.7
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 2.7861393192551986e-08,
+    "T": 19.5322,
+    "mode": "cand_direct",
+    "seed": 20260914,
+    "elapsed_s": 47.7
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.0988118859245333e-08,
+    "T": 19.5315,
+    "mode": "cand_direct",
+    "seed": 20260915,
+    "elapsed_s": 69.4
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 9.98424454223823e-09,
+    "T": 19.5311,
+    "mode": "cand_direct",
+    "seed": 20260916,
+    "elapsed_s": 60.8
+   }
+  ]
+ },
+ "vote_off": {
+  "n_runs": 5,
+  "n_trigger": 5,
+  "n_hit": 5,
+  "rows": [
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.0093396340948857e-08,
+    "T": 19.5308,
+    "mode": "cand_direct",
+    "seed": 20260912,
+    "elapsed_s": 55.9
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 9.39534139376974e-09,
+    "T": 19.5318,
+    "mode": "cand_direct",
+    "seed": 20260913,
+    "elapsed_s": 57.0
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 2.7861393192551986e-08,
+    "T": 19.5322,
+    "mode": "cand_direct",
+    "seed": 20260914,
+    "elapsed_s": 63.2
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 1.0988117082888493e-08,
+    "T": 19.5315,
+    "mode": "cand_direct",
+    "seed": 20260915,
+    "elapsed_s": 57.1
+   },
+   {
+    "trigger": true,
+    "hit": true,
+    "F": 9.98424454223823e-09,
+    "T": 19.5311,
+    "mode": "cand_direct",
+    "seed": 20260916,
+    "elapsed_s": 56.3
+   }
+  ]
+ },
+ "elapsed_s": 543.0
+}

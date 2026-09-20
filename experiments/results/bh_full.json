@@ -1,0 +1,55 @@
+{
+  "problem": "CEC2017 F5 M_orth 30D, f_opt=500 calibration, T=19.53",
+  "budget_fe": 396993,
+  "n_runs": 5,
+  "hit_tol": 0.0001,
+  "median_f": 8.9546,
+  "q1": 7.9597,
+  "q3": 8.9546,
+  "n_hit": 0,
+  "fe_consumed": [
+    881950,
+    865427,
+    870263,
+    869705,
+    871379
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "final_f": 8.9546,
+      "fe": 881950,
+      "hit": false,
+      "wall_s": 18.2
+    },
+    {
+      "seed": 1,
+      "final_f": 8.9546,
+      "fe": 865427,
+      "hit": false,
+      "wall_s": 18.0
+    },
+    {
+      "seed": 2,
+      "final_f": 8.9546,
+      "fe": 870263,
+      "hit": false,
+      "wall_s": 18.0
+    },
+    {
+      "seed": 3,
+      "final_f": 6.9647,
+      "fe": 869705,
+      "hit": false,
+      "wall_s": 17.7
+    },
+    {
+      "seed": 4,
+      "final_f": 7.9597,
+      "fe": 871379,
+      "hit": false,
+      "wall_s": 17.8
+    }
+  ],
+  "elapsed_s": 90.0
+}

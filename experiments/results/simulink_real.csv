@@ -1,0 +1,3 @@
+model,dim,y_sim,x_hgca,err_vs_sim,conv,struct_id_trigger,pcu_trigger,stage,r_norm
+sim_lin_loop,1,0.6666666666666666,0.6666666666666337,3.297362383136715e-14,1,0,0,direct_newton,
+sim_nl_loop,2,1.778648448;1.554530101,1.778648448;1.554530101,0.0,1,0,0,direct_newton,1.3877787807814457e-16

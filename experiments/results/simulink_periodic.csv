@@ -1,0 +1,2 @@
+model,dim,y_sim,x_pcu,err_vs_sim,F_at_x,max_r_at_x,struct_id_trigger,pcu_ok,jdiff_consistency
+sim_per_loop,2,1.570796327;1.570796327,1.570796327;1.570796327,0.0,0.0,0.0,1,1,1.4448442442471787e-11

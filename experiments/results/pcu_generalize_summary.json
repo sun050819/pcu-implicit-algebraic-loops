@@ -1,0 +1,37 @@
+{
+  "n_runs": 10,
+  "per_problem": {
+    "Cosine_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    },
+    "Cosine_20D_T2.0": {
+      "base": 0.6,
+      "pcu": 1.0
+    },
+    "Rastrigin_A20.0_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    },
+    "Rastrigin_A5.0_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    },
+    "Rastrigin_T2.0_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    },
+    "Rastrigin_b_20D": {
+      "base": 0.0,
+      "pcu": 0.0
+    },
+    "Rastrigin_c12.0_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    },
+    "SinSq_20D": {
+      "base": 0.0,
+      "pcu": 1.0
+    }
+  }
+}

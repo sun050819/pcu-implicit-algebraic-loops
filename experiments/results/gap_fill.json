@@ -1,0 +1,33 @@
+{
+  "problem": "CEC2017 F5 M_orth 30D, f_opt=500 calibration, T=19.53, budget=396993",
+  "budget_fe": 396993,
+  "n_runs": 5,
+  "RFF_surrogate": {
+    "final_f": {
+      "median": 430.7558,
+      "q1": 416.7143,
+      "q3": 457.4673,
+      "min": 407.2655,
+      "max": 466.4704,
+      "n_hit": 0
+    }
+  },
+  "Multi-start L-BFGS": {
+    "final_f": {
+      "median": 195.0105,
+      "q1": 184.3378,
+      "q3": 206.9504,
+      "min": 180.2973,
+      "max": 219.8843,
+      "n_hit": 0
+    }
+  },
+  "Basinhopping": {
+    "final_f": {
+      "median": 36.8134,
+      "n_hit": 0
+    },
+    "fe": 76508,
+    "elapsed_s": 1.6
+  }
+}

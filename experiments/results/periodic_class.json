@@ -1,0 +1,137 @@
+{
+  "synth_consensus_period": {
+    "n_runs": 10,
+    "n_trigger": 10,
+    "n_hit": 10,
+    "rows": [
+      {
+        "seed": 20260912,
+        "trigger": true,
+        "hit": true,
+        "F": 4.48893449970507e-10
+      },
+      {
+        "seed": 20260913,
+        "trigger": true,
+        "hit": true,
+        "F": 5.667553078161711e-10
+      },
+      {
+        "seed": 20260914,
+        "trigger": true,
+        "hit": true,
+        "F": 4.549101066509862e-10
+      },
+      {
+        "seed": 20260915,
+        "trigger": true,
+        "hit": true,
+        "F": 6.807625880780185e-10
+      },
+      {
+        "seed": 20260916,
+        "trigger": true,
+        "hit": true,
+        "F": 3.522406943803894e-10
+      },
+      {
+        "seed": 20260917,
+        "trigger": true,
+        "hit": true,
+        "F": 4.961842393458372e-10
+      },
+      {
+        "seed": 20260918,
+        "trigger": true,
+        "hit": true,
+        "F": 5.116062152489677e-10
+      },
+      {
+        "seed": 20260919,
+        "trigger": true,
+        "hit": true,
+        "F": 4.571163972838317e-10
+      },
+      {
+        "seed": 20260920,
+        "trigger": true,
+        "hit": true,
+        "F": 5.808010704729472e-10
+      },
+      {
+        "seed": 20260921,
+        "trigger": true,
+        "hit": true,
+        "F": 5.365148150563875e-10
+      }
+    ]
+  },
+  "griewank": {
+    "n_runs": 10,
+    "n_trigger": 0,
+    "n_hit": 0,
+    "rows": [
+      {
+        "seed": 20260912,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260913,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260914,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260915,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260916,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260917,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260918,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260919,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260920,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      },
+      {
+        "seed": 20260921,
+        "trigger": false,
+        "cv_T": null,
+        "n_main_peaks": 0
+      }
+    ]
+  },
+  "elapsed_s": 364.2
+}

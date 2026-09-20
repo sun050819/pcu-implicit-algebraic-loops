@@ -1,0 +1,8 @@
+{
+  "n": 10,
+  "trigger": 10,
+  "hit_F<1e-4": 10,
+  "hit_rate": 1.0,
+  "period_rel_err_mean": 2.0980426754194922e-05,
+  "elapsed_s": 63.4
+}

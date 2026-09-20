@@ -1,0 +1,66 @@
+{
+  "D500_m5_s20260916": {
+    "reject": false,
+    "T": 19.5311,
+    "mode": "rotated",
+    "elapsed_s": 16.6,
+    "radius": 44.7,
+    "n": 81
+  },
+  "D400_m5_s20260916": {
+    "reject": false,
+    "T": 19.5309,
+    "mode": "rotated",
+    "elapsed_s": 7.7,
+    "radius": 46.6,
+    "n": 73
+  },
+  "D250_m5_s20260917": {
+    "reject": false,
+    "T": 19.5303,
+    "mode": "rotated",
+    "elapsed_s": 1.9,
+    "radius": 45.9,
+    "n": 73
+  },
+  "D300_m5_s20260917": {
+    "reject": false,
+    "T": 19.5316,
+    "mode": "rotated",
+    "elapsed_s": 3.3,
+    "radius": 45.2,
+    "n": 73
+  },
+  "D250_m5_s20260918": {
+    "reject": false,
+    "T": 19.5308,
+    "mode": "rotated",
+    "elapsed_s": 2.0,
+    "radius": 48.4,
+    "n": 81
+  },
+  "D300_m5_s20260918": {
+    "reject": false,
+    "T": 19.5301,
+    "mode": "rotated",
+    "elapsed_s": 3.2,
+    "radius": 45.9,
+    "n": 73
+  },
+  "D250_m5_s20260919": {
+    "reject": false,
+    "T": 19.5314,
+    "mode": "rotated",
+    "elapsed_s": 2.0,
+    "radius": 47.0,
+    "n": 73
+  },
+  "D300_m5_s20260919": {
+    "reject": false,
+    "T": 19.5306,
+    "mode": "rotated",
+    "elapsed_s": 3.1,
+    "radius": 46.4,
+    "n": 73
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "n_runs": 30,
+  "maxfevals": 30000,
+  "per_problem": {
+    "Beale_2D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Beale_2D_C": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Beale_2D_E": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Beale_2D_H": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Beale_2D_M": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Beale_2D_XE": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Griewank_20D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Michalewicz_10D_XE": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Powell_4D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Powell_4D_C": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Powell_4D_E": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Powell_4D_H": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Powell_4D_M": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rastrigin_20D_XE": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 0.0,
+      "bipop": 0.0,
+      "nbipop": 0.0
+    },
+    "Rastrigin_2D_XE": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rastrigin_30D_XE": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 0.0,
+      "bipop": 0.0,
+      "nbipop": 0.0
+    },
+    "Rosenbrock_10D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_10D_C": {
+      "hgca_v67": 0.9333333333333333,
+      "hgca_v54": 0.9333333333333333,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_10D_E": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_10D_H": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_10D_M": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 0.9666666666666667
+    },
+    "Rosenbrock_2D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_2D_C": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_2D_E": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_2D_H": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rosenbrock_2D_M": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Rotated_Ackley_20D": {
+      "hgca_v67": 0.9333333333333333,
+      "hgca_v54": 0.9333333333333333,
+      "bipop": 1.0,
+      "nbipop": 0.8666666666666667
+    },
+    "Rotated_Rastrigin_20D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 0.0,
+      "bipop": 0.0,
+      "nbipop": 0.0
+    },
+    "Schaffer_F6_2D_XE": {
+      "hgca_v67": 0.23333333333333334,
+      "hgca_v54": 0.23333333333333334,
+      "bipop": 0.0,
+      "nbipop": 0.0
+    },
+    "Simulink_Linear_Loop": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Simulink_Nonlinear_Loop": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 0.0,
+      "nbipop": 0.0
+    },
+    "Wood_4D": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Wood_4D_C": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Wood_4D_E": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Wood_4D_H": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    },
+    "Wood_4D_M": {
+      "hgca_v67": 1.0,
+      "hgca_v54": 1.0,
+      "bipop": 1.0,
+      "nbipop": 1.0
+    }
+  },
+  "total": {
+    "hgca_v67": 0.975,
+    "hgca_v54": 0.8916666666666667,
+    "bipop": 0.8611111111111112,
+    "nbipop": 0.8564814814814815
+  }
+}

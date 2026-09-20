@@ -1,0 +1,50 @@
+{
+  "elapsed_s": 90.6,
+  "detail": [
+    {
+      "sigma": 0.0,
+      "HS": 0.001,
+      "n": 10,
+      "trigger": 10,
+      "hit": 9,
+      "hit_rate": 0.9,
+      "F_median": 7.405858936238019e-05
+    },
+    {
+      "sigma": 0.0001,
+      "HS": 0.001,
+      "n": 10,
+      "trigger": 0,
+      "hit": 0,
+      "hit_rate": 0.0,
+      "F_median": null
+    },
+    {
+      "sigma": 0.001,
+      "HS": 0.003,
+      "n": 10,
+      "trigger": 0,
+      "hit": 0,
+      "hit_rate": 0.0,
+      "F_median": null
+    },
+    {
+      "sigma": 0.01,
+      "HS": 0.01,
+      "n": 10,
+      "trigger": 0,
+      "hit": 0,
+      "hit_rate": 0.0,
+      "F_median": null
+    },
+    {
+      "sigma": "1e-2 (analytic g/h)",
+      "HS": "-",
+      "n": 10,
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0,
+      "F_median": 0.0
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+ "300": [
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.4392579572586328e-08,
+   "T": 19.5311,
+   "mode": "cand_direct",
+   "seed": 20260926,
+   "elapsed_s": 3.9
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.5200340541809965e-08,
+   "T": 19.5306,
+   "mode": "cand_direct",
+   "seed": 20260927,
+   "elapsed_s": 3.6
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.0219022072988082e-08,
+   "T": 19.5314,
+   "mode": "cand_direct",
+   "seed": 20260928,
+   "elapsed_s": 3.6
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 8.025356379448567e-09,
+   "T": 19.5308,
+   "mode": "cand_direct",
+   "seed": 20260929,
+   "elapsed_s": 3.4
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.0007401129996651e-08,
+   "T": 19.531,
+   "mode": "cand_direct",
+   "seed": 20260930,
+   "elapsed_s": 3.4
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 6.144153630316396e-09,
+   "T": 19.5311,
+   "mode": "cand_direct",
+   "seed": 20260931,
+   "elapsed_s": 3.6
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 9.160361358340197e-09,
+   "T": 19.5309,
+   "mode": "cand_direct",
+   "seed": 20260932,
+   "elapsed_s": 3.4
+  }
+ ],
+ "400": [
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 9.306679871201595e-09,
+   "T": 19.5311,
+   "mode": "cand_direct",
+   "seed": 20260926,
+   "elapsed_s": 7.8
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.899665136306794e-08,
+   "T": 19.5312,
+   "mode": "cand_direct",
+   "seed": 20260927,
+   "elapsed_s": 7.0
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.0227287461361811e-08,
+   "T": 19.5317,
+   "mode": "cand_direct",
+   "seed": 20260928,
+   "elapsed_s": 7.7
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.0679084283538032e-08,
+   "T": 19.532,
+   "mode": "cand_direct",
+   "seed": 20260929,
+   "elapsed_s": 7.5
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 7.898606213530002e-09,
+   "T": 19.5312,
+   "mode": "cand_direct",
+   "seed": 20260930,
+   "elapsed_s": 7.2
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 2.3818996552904537e-08,
+   "T": 19.5324,
+   "mode": "cand_direct",
+   "seed": 20260931,
+   "elapsed_s": 7.0
+  },
+  {
+   "trigger": true,
+   "hit": true,
+   "F": 1.8873778984129785e-08,
+   "T": 19.5308,
+   "mode": "cand_direct",
+   "seed": 20260932,
+   "elapsed_s": 6.8
+  }
+ ]
+}

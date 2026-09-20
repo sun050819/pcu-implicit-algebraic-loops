@@ -1,0 +1,39 @@
+{
+  "r100": {
+    "D": 100,
+    "T_true": 19.53125,
+    "n_runs": 10,
+    "tag": "sep_100D",
+    "hit": 10,
+    "success_rate": 1.0,
+    "F0_hit_rate": 1.0,
+    "T_est_mean": 19.5314,
+    "T_rel_err_mean": 0.0,
+    "scan_s_mean": 0.006,
+    "newton_s_mean": 0.175,
+    "n_pts_per_dim": 64,
+    "radius_mean": 24.9
+  },
+  "r500": {
+    "D": 500,
+    "T_true": 19.53125,
+    "n_runs": 10,
+    "tag": "sep_500D",
+    "hit": 10,
+    "success_rate": 1.0,
+    "F0_hit_rate": 1.0,
+    "T_est_mean": 19.5314,
+    "T_rel_err_mean": 0.0,
+    "scan_s_mean": 0.118,
+    "newton_s_mean": 0.888,
+    "n_pts_per_dim": 64,
+    "radius_mean": 25.0
+  },
+  "cpu_ref_100D": {
+    "identify_s_mean": 0.62,
+    "trigger": "10/10",
+    "hit": "10/10",
+    "F0": 1.0,
+    "T": "19.53 (from stress_highdim.json)"
+  }
+}

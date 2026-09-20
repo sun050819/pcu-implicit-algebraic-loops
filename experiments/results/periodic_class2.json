@@ -1,0 +1,137 @@
+{
+ "ackley": {
+  "n_runs": 10,
+  "n_trigger": 0,
+  "n_hit": 0,
+  "rows": [
+   {
+    "seed": 20260912,
+    "trigger": false,
+    "cv_T": 0.2686727316764739,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260913,
+    "trigger": false,
+    "cv_T": 0.24981239049785864,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260914,
+    "trigger": false,
+    "cv_T": 0.2661591218843116,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260915,
+    "trigger": false,
+    "cv_T": 0.21535189222414347,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260916,
+    "trigger": false,
+    "cv_T": 0.24709646346242234,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260917,
+    "trigger": false,
+    "cv_T": 0.24029303882398498,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260918,
+    "trigger": false,
+    "cv_T": 0.2441343995943176,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260919,
+    "trigger": false,
+    "cv_T": 0.28473066738484837,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260920,
+    "trigger": false,
+    "cv_T": 0.2709702976597213,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260921,
+    "trigger": false,
+    "cv_T": 0.2661591218843116,
+    "n_main_peaks": 3
+   }
+  ]
+ },
+ "schaffer_f6": {
+  "n_runs": 10,
+  "n_trigger": 0,
+  "n_hit": 0,
+  "rows": [
+   {
+    "seed": 20260912,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260913,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260914,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260915,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260916,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260917,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260918,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260919,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260920,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   },
+   {
+    "seed": 20260921,
+    "trigger": false,
+    "cv_T": 0.0,
+    "n_main_peaks": 3
+   }
+  ]
+ },
+ "elapsed_s": 576.1
+}

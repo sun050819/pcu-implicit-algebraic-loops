@@ -1,0 +1,73 @@
+{
+  "A_cand_keep": {
+    "CAND_KEEP=1": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "CAND_KEEP=2": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "CAND_KEEP=4": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "CAND_KEEP=8": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    }
+  },
+  "B_fd_scan": {
+    "fd_dir": {
+      "trigger": 10,
+      "T_hit": 7,
+      "T_hit_rate": 0.7
+    },
+    "fd_full": {
+      "trigger": 0,
+      "T_hit": 0,
+      "T_hit_rate": 0.0
+    }
+  },
+  "C_thresholds": {
+    "tol_off=1e-04": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "tol_off=1e-06": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "tol_off=1e-08": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "margin=50": {
+      "trigger": 3,
+      "hit": 3,
+      "hit_rate": 0.3
+    },
+    "margin=100": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    },
+    "margin=200": {
+      "trigger": 10,
+      "hit": 10,
+      "hit_rate": 1.0
+    }
+  },
+  "_meta": {
+    "n_runs": 10,
+    "seed0": 20260916,
+    "elapsed_s": 1192.1
+  }
+}
