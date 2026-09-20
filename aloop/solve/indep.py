@@ -1,4 +1,4 @@
-"""Independent third-party solver (cross-solver robustness validation 9.1.5).
+﻿"""Independent third-party solver (cross-solver robustness validation 9.1.5).
 
 Source: "Independent Solver Validation Notes.md" - "root_scalar 'brentq' bisection root-finding +
 geometric bracket expansion, without using fixed-point iteration/Aitken/Newton fallback".

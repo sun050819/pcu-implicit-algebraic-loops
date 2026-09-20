@@ -1,4 +1,4 @@
-"""GNN-enhanced minimum feedback vertex set (FVS) -- v2.3.3 P1-7.
+﻿"""GNN-enhanced minimum feedback vertex set (FVS) -- v2.3.3 P1-7.
 
 Integrate the breakpoint ranking prior of a pretrained Graph Transformer into CI-guided greedy FVS:
   1. GNN predicts rank (breakpoints with fewer iterations have higher rank) -> normalize to [0,1]

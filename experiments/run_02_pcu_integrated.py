@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_02_pcu_integrated.py - Full 30-run validation after integrating PCU into the solver.
 

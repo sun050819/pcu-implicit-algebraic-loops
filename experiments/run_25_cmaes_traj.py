@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """CMA-ES 5-runs with median trajectory: CEC2017 f5 M_orth 30D, 396,993 FE, seeds 20260912-16.
 Output: results/dataprofile.json updated (cma_es: 5-run median best + median trajectory)

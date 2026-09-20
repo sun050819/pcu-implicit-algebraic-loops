@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Numba JIT accelerated kernels: compile the most time-consuming objective functions in CMA-ES with @njit.
 
 Enabled only when numba is available; automatically falls back to the pure NumPy version when unavailable.

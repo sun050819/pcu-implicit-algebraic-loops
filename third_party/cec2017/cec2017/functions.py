@@ -1,4 +1,4 @@
-# cec2017.functions
+﻿# cec2017.functions
 # Author: Duncan Tilley
 # Combines simple, hybrid and composition functions (f1 - f30) into a single
 # module

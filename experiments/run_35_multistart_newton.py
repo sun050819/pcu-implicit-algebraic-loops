@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_35_multistart_newton.py
 
 Multi-start damped Newton with finite-difference derivatives under a strict

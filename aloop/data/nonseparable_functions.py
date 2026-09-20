@@ -1,4 +1,4 @@
-"""nonseparable_functions.py - Non-separable high-dimensional multimodal functions"""
+﻿"""nonseparable_functions.py - Non-separable high-dimensional multimodal functions"""
 import numpy as np
 
 

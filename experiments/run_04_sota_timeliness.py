@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_04_sota_timeliness.py - SOTA timeliness comparison (same A^2EP shift fair benchmark)
 

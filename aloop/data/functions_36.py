@@ -1,4 +1,4 @@
-"""Legacy 36-problem unified benchmark interface.
+﻿"""Legacy 36-problem unified benchmark interface.
 
 Unified solver interface for each problem:
     func(x) / grad(x) / hess(x) / x0 / ci_value / name / dim / x_opt / f_opt
@@ -11,7 +11,7 @@ from typing import Callable, Dict, List
 
 import numpy as np
 
-from .hastn_functions import PROBLEMS
+from .benchmark_functions import PROBLEMS
 
 
 @dataclass

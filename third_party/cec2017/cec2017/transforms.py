@@ -1,4 +1,4 @@
-# cec2017.transforms
+﻿# cec2017.transforms
 # Author: Duncan Tilley
 # Contains rotation, shift and shuffle data loaded from data.pkl.
 # Note that these correspond to the many .txt files provided along with the

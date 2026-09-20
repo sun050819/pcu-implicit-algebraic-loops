@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_01_pcu.py - PCU preposed fast path vs v54 baseline (full validation over 30 runs)
 

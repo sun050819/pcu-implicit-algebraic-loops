@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """aloop-system command line interface (P3-12).
 
 Usage example:

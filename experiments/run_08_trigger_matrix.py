@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_08_trigger_matrix: CEC2017 trigger/rejection matrix (30D).
 

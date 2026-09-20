@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_42_pcu_ea_hybrid.py
 PCU as a restart operator for evolutionary algorithms.
 

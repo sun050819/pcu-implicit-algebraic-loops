@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """GPU version of the real identify process (replicating the full struct_id logic, hess batched on GPU):
 Re-verify the true boundaries of orthogonal rotation for 250/300/400/500D (two margin regimes: 5.0 and 20.0)"""
 import io, sys, time

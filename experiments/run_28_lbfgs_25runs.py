@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_28_lbfgs_25runs.py
 Hedging against information asymmetry risk: giving the sampling-iteration baseline second-order information (Multi-start L-BFGS, quasi-Newton),

@@ -1,4 +1,4 @@
-"""
+﻿"""
 algebraic_loop_benchmarks.py
 A collection of genuine algebraic loop / implicit coupled equation benchmarks.
 Each problem is of the form x = f(x) (implicit fixed-point system),

@@ -1,4 +1,4 @@
-"""Benchmark/dataset generator: synthetic algebraic loops + industrial scenarios."""
+﻿"""Benchmark/dataset generator: synthetic algebraic loops + industrial scenarios."""
 from __future__ import annotations
 
 from typing import Callable, Dict, List, Optional, Tuple

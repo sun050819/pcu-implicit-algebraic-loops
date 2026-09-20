@@ -1,4 +1,4 @@
-"""GPU-accelerated CMA-ES (PyTorch CUDA implementation, v2.3.0 optimized version).
+﻿"""GPU-accelerated CMA-ES (PyTorch CUDA implementation, v2.3.0 optimized version).
 
 Key optimizations (targeting consumer-grade GPUs such as RTX 3060):
   1. **float32 precision**: On consumer-grade GPUs float64 performance is only 1/30 of float32,

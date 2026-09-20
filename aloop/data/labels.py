@@ -1,4 +1,4 @@
-"""Label generation and dataset.
+﻿"""Label generation and dataset.
 
 - Synthetic cycle labels: 3 scenarios (single/overlap/nested) x 50, 15 nodes; cycle = maximum SCC;
   for each node on the cycle, use the real solver (fixed-point + Aitken + Newton) to compute cost; divergent breakpoints recorded as 3000 penalty;

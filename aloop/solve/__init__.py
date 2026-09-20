@@ -1,4 +1,4 @@
-"""Robust solving layer: HGCA hybrid solver (with the PCU fast path) + Newton/SA baselines + breakpoint residuals.
+﻿"""Robust solving layer: HGCA hybrid solver (with the PCU fast path) + Newton/SA baselines + breakpoint residuals.
 
 Solver aliases are retained for backward compatibility
 with earlier algebraic-loop solvers; the PCU structure-identification path is described

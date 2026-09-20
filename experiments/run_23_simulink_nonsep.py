@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_23_simulink_nonsep.py - Simulink non-separable periodic loop end-to-end (PCU vs Simulink algebraic loop solver).
 

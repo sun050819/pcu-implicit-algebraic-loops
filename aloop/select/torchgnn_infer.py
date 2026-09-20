@@ -1,4 +1,4 @@
-"""Pure NumPy inference module for the PyTorch Graph Transformer node-selection model.
+﻿"""Pure NumPy inference module for the PyTorch Graph Transformer node-selection model.
 
 Training is done in system Python 3.11 (torch), and the weights are exported as .npz (with keys matching the torch state_dict
 consistent); this module replicates the same forward pass with NumPy, so the main pipeline (sandbox Python, without torch dependency)

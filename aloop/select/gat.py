@@ -1,4 +1,4 @@
-"""GAT dual-head network (ranking head + convergence reliability head).
+﻿"""GAT dual-head network (ranking head + convergence reliability head).
 
 [WARNING] Known issues (discovered in v2.3.14 review):
     GAT training based on the in-house autograd micro-framework, under full configuration (150 epochs + joint data),

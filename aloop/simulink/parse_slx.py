@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Simulink .slx model parsing: extract block dependency graph (adjacency matrix) and node output functions.
 
 .slx is essentially a ZIP package; blocks and lines are defined in simulink/systems/system_root.xml:

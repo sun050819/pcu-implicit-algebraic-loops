@@ -1,4 +1,4 @@
-"""aloop - integrated analysis system for algebraic loops (the companion code of the PCU manuscript).
+﻿"""aloop - integrated analysis system for algebraic loops (the companion code of the PCU manuscript).
 
 PCU (Periodic Coordinate Unwrapping) is a structure-aware optimization framework
 for a class of periodic implicit algebraic loops; this package provides the full

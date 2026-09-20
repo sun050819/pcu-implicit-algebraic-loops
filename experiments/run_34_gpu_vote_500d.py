@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_34_gpu_vote_500d.py - 500D rotational voting on/off ablation (GPU, FP64).
 Observation 1 claims that three-point voting is key to 500D success; here we directly verify: voting on/off, 5 seeds each.

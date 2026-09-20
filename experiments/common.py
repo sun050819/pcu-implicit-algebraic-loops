@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Common utilities for experiment scripts: load datasets, save CSV/JSON, 5-fold split."""
 import os
 import json

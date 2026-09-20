@@ -1,4 +1,4 @@
-"""Foundations of loop evaluation and breakpoint solving (ported from the breakpoint-selection project).
+﻿"""Foundations of loop evaluation and breakpoint solving (ported from the breakpoint-selection project).
 
 Given a directed signal flow graph and per-node output functions
     x_v = node_fn(v, {j: x_j for j in pred(v)}),

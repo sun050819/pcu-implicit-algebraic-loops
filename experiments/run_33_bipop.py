@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_bipop: BIPOP-CMA-ES on CEC2017 f5 (M_orth, 30D), same budget 396,993 FE,
 5 runs (exploratory median), consistent with sota_compare.json."""

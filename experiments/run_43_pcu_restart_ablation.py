@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_43_pcu_restart_ablation.py
 Simplified PCU restart ablation: compare pure CMA-ES vs random restart vs PCU restart.
 

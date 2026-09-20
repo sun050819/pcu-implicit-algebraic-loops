@@ -1,4 +1,4 @@
-# cec2017.simple
+﻿# cec2017.simple
 # Author: Duncan Tilley
 # Simple function definitions, f1 to f10
 

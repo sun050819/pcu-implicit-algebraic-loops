@@ -1,4 +1,4 @@
-"""CI (Composite Complexity Index) complexity metric.
+﻿"""CI (Composite Complexity Index) complexity metric.
 
 Definition (implementation consistent with the legacy source):
     D     = min(dim/10, 1)                          # dimension component
@@ -48,7 +48,7 @@ def compute_ci_log1p(dim: int, init_residual: float, cond_J: float,
     return round(float(ci), 4)
 
 
-def get_hastn_config(ci: float) -> Dict:
+def get_ci_config(ci: float) -> Dict:
     """CI adaptive three-stage configuration."""
     if ci < 0.3:
         return {'T0': 500, 'alpha': 0.98, 'sigma': 1.0, 'n_restarts': 2,

@@ -1,4 +1,4 @@
-"""Micro automatic differentiation framework (pure NumPy, for GAT / GCN / SAGE / MLP training).
+﻿"""Micro automatic differentiation framework (pure NumPy, for GAT / GCN / SAGE / MLP training).
 
 The delivered baseline requires "no deep learning toolbox dependency", so we implement minimal automatic differentiation ourselves:
     Tensor(value, requires_grad) + operators (matmul/add/mul/leaky_relu/softmax/...) + Adam.

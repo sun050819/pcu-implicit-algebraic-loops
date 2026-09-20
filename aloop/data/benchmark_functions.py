@@ -1,4 +1,4 @@
-"""
+﻿"""
 test_functions.py
 Benchmark test functions with f, grad, hess, CI value, initial points.
 """
@@ -604,7 +604,7 @@ except Exception:
 # ============================================================
 # CI-based legacy configuration
 # ============================================================
-def get_hastn_config(ci: float) -> Dict:
+def get_ci_config(ci: float) -> Dict:
     """Three-tier parameter configuration based on problem complexity."""
     if ci < 0.3:
         return {'T0': 500, 'alpha': 0.98, 'sigma': 1.0, 'n_restarts': 2,
@@ -628,7 +628,7 @@ def get_all_problem_names() -> List[str]:
 if __name__ == '__main__':
     print("=== Test Problem Registry ===")
     for name, p in PROBLEMS.items():
-        config = get_hastn_config(p.ci_value)
+        config = get_ci_config(p.ci_value)
         print(f"{name:30s} dim={p.dim:2d}  CI={p.ci_value:.4f}  tier={config['tier']:6s}  "
               f"T0={config['T0']:4d}  restarts={config['n_restarts']}")
     print(f"\nTotal problems: {len(PROBLEMS)}")

@@ -1,4 +1,4 @@
-"""16-dimensional node features.
+﻿"""16-dimensional node features.
 
 Feature composition: 4-dimensional block type one-hot + 12-dimensional topological features
     4  one-hot : [Gain, Sum, Math, Product]

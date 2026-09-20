@@ -1,4 +1,4 @@
-"""Robust solving layer: direct solution of linear algebraic loops (v2.3.3 P0-3).
+﻿"""Robust solving layer: direct solution of linear algebraic loops (v2.3.3 P0-3).
 
 The residual system of an algebraic loop is r(y) = y - phi(y). When all blocks are linear (Gain/Sum/Product with constant coefficients,
 Constant sources), J is a constant matrix, and the system degenerates to the linear equation J.y = -c (c = r(0)),

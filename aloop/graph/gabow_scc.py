@@ -1,4 +1,4 @@
-"""Gabow's strongly connected components algorithm (single-pass linear, ported from the earlier project's detection layer).
+﻿"""Gabow's strongly connected components algorithm (single-pass linear, ported from the earlier project's detection layer).
 
 The Gabow algorithm uses two stacks (S: DFS path stack, P: SCC root candidate stack) to replace Tarjan's low-link,
 allowing all strongly connected components to be found in linear time without requiring a low array.

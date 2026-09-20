@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_39_bipop_cmaes: BIPOP-CMA-ES (CEC-2013 champion SOTA variant) on CEC2017 f5 M_orth 30D.
 
 Same budget (396,993 FE) and seed convention as Table II. Purpose: close the

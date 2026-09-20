@@ -1,4 +1,4 @@
-"""Inner-cycle enumeration: naive breadth-first search vs bidirectional breadth-first search.
+﻿"""Inner-cycle enumeration: naive breadth-first search vs bidirectional breadth-first search.
 
 Naive breadth-first search:
     Starting from each node in the SCC, perform simple-path traversal to find all simple cycles; the same cycle is found once by each of its

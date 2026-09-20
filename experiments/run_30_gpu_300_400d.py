@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_30_gpu_300_400d.py
 E5 Fix: 300/400D supplementary runs to 10 seeds (original 3 seeds were questioned by reviewers).

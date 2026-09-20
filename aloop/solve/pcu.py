@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """pcu.py - PCU (Periodic Coordinate Unwrapping) core implementation, no import side effects.
 
 Use analytical Hessian to detect and solve separable periodic structure problems (Rastrigin family):

@@ -1,4 +1,4 @@
-"""(2) Intelligent breakpoint selection layer: unified entry for point selection strategies + top-k breakpoint sequence.
+﻿"""(2) Intelligent breakpoint selection layer: unified entry for point selection strategies + top-k breakpoint sequence.
 
 - For each candidate node on a cycle, each strategy provides a score/preference; sort head scores in descending order and take top-k (k<=2).
 - Nested/overlapping cycle scenarios: call point selection separately for each inner cycle, achieving "optimal entry per cycle for nested cycles".

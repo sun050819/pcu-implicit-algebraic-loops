@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_32_vote_ablation.py - Rotation voting on/off ablation (M8).
 Voting off = only use the single-point eigh at the initial point to recover R (no 3-point voting); voting on = default 3-point voting.

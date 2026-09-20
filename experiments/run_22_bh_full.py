@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_22_bh_full.py - Run Basinhopping to the full 396,993 FE (5 runs, same-budget statistical protocol).
 

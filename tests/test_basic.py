@@ -1,4 +1,4 @@
-"""Unit tests for aloop core modules."""
+﻿"""Unit tests for aloop core modules."""
 import numpy as np
 import pytest
 

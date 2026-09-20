@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_21_fd_dual.py - PCU FE dual criteria (G2b): FE count when analytical derivatives are available.
 

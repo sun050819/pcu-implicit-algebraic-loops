@@ -1,4 +1,4 @@
-"""
+﻿"""
 Convert PNG figures to vector PDF format for IEEE TEVC.
 This script embeds PNG figures into PDF containers (for true vector output,
 re-run the original plotting scripts with savefig format='pdf').

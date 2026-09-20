@@ -1,4 +1,4 @@
-"""Robust solving layer: loop-breaking pipeline (unified entry + top-k breakpoint cascading retry).
+﻿"""Robust solving layer: loop-breaking pipeline (unified entry + top-k breakpoint cascading retry).
 
 Data flow (corresponding to Section 7 of the design specification):
     loop_db + breakpoint_candidates -> solution(SolveResult)
@@ -15,7 +15,7 @@ from typing import Callable, Dict, List, Optional, Sequence
 import numpy as np
 
 from ..structures import SolveResult
-from ..graph.ci import get_hastn_config, compute_ci
+from ..graph.ci import get_ci_config, compute_ci
 from ..loopeval import build_breakpoint_residual, build_system_residual, solve_breakpoint
 from .newton import NEWTON_SOLVERS
 from .hybrid import SOLVER_REGISTRY, hast_n, hast_cma
@@ -50,7 +50,7 @@ def _dispatch(name: str, func, grad, hess, x0, ci: float, tol: float, max_iter: 
              residual_fn=None, jacobian_fn=None):
     """Unified solver dispatch; hast_n automatically applies CI adaptive config; hgca receives the r/J needed by homotopy."""
     if name == "hast_n":
-        cfg = get_hastn_config(ci)
+        cfg = get_ci_config(ci)
         return hast_n(func, grad, hess, x0, tol=tol, max_iter=max_iter, cfg=cfg)
     if name == "hgca":
         cfg = {"residual_fn": residual_fn, "jacobian_fn": jacobian_fn}

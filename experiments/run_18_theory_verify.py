@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_18_theory_verify.py v2 - numerical verification of three robustness propositions (revised version).
 

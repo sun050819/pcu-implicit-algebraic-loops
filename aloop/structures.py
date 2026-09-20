@@ -1,4 +1,4 @@
-"""Core explicit data structures (inter-module decoupling contracts).
+﻿"""Core explicit data structures (inter-module decoupling contracts).
 
 Corresponds to Section 7 data flow of the design specification:
     signal_flow_graph -> LoopDB -> BreakpointSet -> SolveResult -> labels -> write back to labels

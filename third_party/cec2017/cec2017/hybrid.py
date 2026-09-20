@@ -1,4 +1,4 @@
-# cec2017.hybrid
+﻿# cec2017.hybrid
 # Author: Duncan Tilley
 # Hybrid function definitions, f11 to f20
 

@@ -1,4 +1,4 @@
-"""(4) Engineering acceleration layer: thread pool / process pool parallelism.
+﻿"""(4) Engineering acceleration layer: thread pool / process pool parallelism.
 
 - `map_parallel`: general-purpose parallel map, returns results in order.
   - use_process=True: process pool (true parallelism, requires fn/items to be picklable; suitable for inner-loop enumeration,

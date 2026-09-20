@@ -1,4 +1,4 @@
-"""Statistical testing tools (validation protocol 9.1/9.2).
+﻿"""Statistical testing tools (validation protocol 9.1/9.2).
 
 - McNemar test: significant difference in paired binary classification (success/failure), used for comparing point selection/solving success rates.
 - Wilcoxon signed-rank test: significant difference in paired continuous quantities (iteration count/residual).

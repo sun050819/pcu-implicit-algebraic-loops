@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """v2.3.3 P2-10: Batched linear Jacobian / residual evaluator (structure-aware fast path).
 
 Background: build_multibreak_residual's J(x) uses numerical forward differences, and for each breakpoint k it redoes

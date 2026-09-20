@@ -1,4 +1,4 @@
-"""CMA-ES (Covariance Matrix Adaptation Evolution Strategy) global optimization (Hansen 2006 standard algorithm, pure NumPy).
+﻿"""CMA-ES (Covariance Matrix Adaptation Evolution Strategy) global optimization (Hansen 2006 standard algorithm, pure NumPy).
 
 Used as the global phase of the hybrid solver (the historical configuration): compared to simulated annealing, CMA-ES adaptively models variable coupling through the covariance matrix,
 and is recognized as one of the strongest global methods for highly multimodal/non-separable/high-dimensional continuous functions

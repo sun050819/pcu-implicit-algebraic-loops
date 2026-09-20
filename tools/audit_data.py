@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Audit: every paper number traces to a results/*.json value.
 
 Two entry points:

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_12_periodic: CEC2017 periodic family analytic verification (F4/F5 Rastrigin, F9 Levy orthogonalization).
 

@@ -1,4 +1,4 @@
-"""Tarjan strongly connected components algorithm + space-optimized version.
+﻿"""Tarjan strongly connected components algorithm + space-optimized version.
 
 Space optimization ideas:
   - Standard Tarjan uses two int arrays dfn[] and low[] (2x4n bytes).

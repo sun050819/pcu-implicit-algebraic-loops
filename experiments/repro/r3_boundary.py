@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """Focused re-verification: whether boundaries exist.
 500D/400D single instance (seed 20260916, margin=5) + 250D/300D multiple seeds (GPU replicates the real pipeline)

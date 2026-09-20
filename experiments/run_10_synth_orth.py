@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_10_synth_orth: Synthetic orthogonal rotation generalization (one of the three tracks added after review, primary evidence).
 

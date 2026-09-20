@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_37_periodic_class3.py
 
 Third generalization batch (responding to "positive examples too concentrated

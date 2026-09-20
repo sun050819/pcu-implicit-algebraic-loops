@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """The third round of reinforcement:
 A. Newton-free ablation: 100/250/500D candidates directly F vs candidates+Newton F

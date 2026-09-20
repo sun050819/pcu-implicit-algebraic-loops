@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_31_periodic_class2.py
 Extended applicability-domain validation (responding to "positive examples too concentrated on Rastrigin"):

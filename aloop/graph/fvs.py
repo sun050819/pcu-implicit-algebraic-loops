@@ -1,4 +1,4 @@
-"""CI-guided greedy minimum feedback vertex set (FVS)-an efficient innovative algorithm for cycle-breaking breakpoint generation.
+﻿"""CI-guided greedy minimum feedback vertex set (FVS)-an efficient innovative algorithm for cycle-breaking breakpoint generation.
 
 Background: The existing pipeline "enumerate all internal cycles -> select top-k points per cycle" explodes exponentially in the number of cycles on dense graphs,
 and nested cycles that share nodes will repeatedly select points. However, algebraic loop solving only requires "a set of breakpoints that cut all cycles"

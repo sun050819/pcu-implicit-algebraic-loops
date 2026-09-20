@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_36_cpu_highdim_rerun.py
 
 CPU re-validation of the high-dimensional rotated pipeline (250/300/400/500D).

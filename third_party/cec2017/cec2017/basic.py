@@ -1,4 +1,4 @@
-# cec2017.basic
+﻿# cec2017.basic
 # Author: Duncan Tilley
 # Basic function definitions
 

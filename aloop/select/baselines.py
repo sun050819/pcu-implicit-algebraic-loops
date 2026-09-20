@@ -1,4 +1,4 @@
-"""Breakpoint selection baselines.
+﻿"""Breakpoint selection baselines.
 
 Classical heuristics: outdeg / type / random; learning baselines: dt / rl / MLP / SAGE / GCN;
 Theoretical upper bound: optimal (unreachable).

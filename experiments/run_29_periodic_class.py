@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_29_periodic_class.py
 Generalization of the applicability domain (removing the "Rastrigin-only" label):

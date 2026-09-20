@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_38_pcu_50runs.py
 
 Statistical strengthening at the problem level: extend the 50-run panel from

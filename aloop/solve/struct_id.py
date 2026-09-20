@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """struct_id.py - Periodic structure identification and oracle-free solving (v3), no import side effects.
 
 Core idea (no longer assumes parameters are known, nor performs parameter inversion):

@@ -1,4 +1,4 @@
-"""HGCA: Hybrid Global-optimization with Covariance Adaptation (historical solver name retained in the codebase; the manuscript describes the PCU fast path that this solver hosts).
+﻿"""HGCA: Hybrid Global-optimization with Covariance Adaptation (historical solver name retained in the codebase; the manuscript describes the PCU fast path that this solver hosts).
 
 Algorithm Positioning
 ========

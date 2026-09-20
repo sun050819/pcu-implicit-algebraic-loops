@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """_r3_gpu_gap.py - GPU catch-up run: full pipeline for 300/400D (identify+candidate+verify) + 500D strengthened to 10 seeds.
 Reuses _r3_gpu_full.full_pcu (full pipeline implementation), with the same seeds as _r3_boundary to ensure reproducibility.

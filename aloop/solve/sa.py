@@ -1,4 +1,4 @@
-"""Robust solving layer: simulated-annealing-like methods."""
+﻿"""Robust solving layer: simulated-annealing-like methods."""
 from __future__ import annotations
 
 from typing import Callable, Dict

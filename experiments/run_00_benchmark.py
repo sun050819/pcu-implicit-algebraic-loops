@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_00_benchmark.py - Shifted fair benchmark: 30 runs statistical significance + NBIPOP-aCMA
 
 Building on run_38 (3 runs):

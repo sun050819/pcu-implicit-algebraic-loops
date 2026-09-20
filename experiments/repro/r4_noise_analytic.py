@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """r4_noise_analytic: sigma=0 analytic-gradient PCU verification on CEC2017 f5 (M_orth, 30D).
 Mirrors run_14_noise's identify pipeline but uses exact analytic Hessian (no FD noise),

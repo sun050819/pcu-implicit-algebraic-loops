@@ -1,4 +1,4 @@
-"""Robust solving layer: Newton-type solvers.
+﻿"""Robust solving layer: Newton-type solvers.
 
 Unified interface: (func, grad, hess, x0, tol=1e-8, max_iter) -> {"x","nit","res","success"}
 where func(x)=0.5*||r(x)||^2, grad=J^T r, hess=J^T J (Gauss-Newton).

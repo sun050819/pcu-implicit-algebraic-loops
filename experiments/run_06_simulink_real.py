@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_06_simulink_real.py - Task (2): Real Simulink algebraic loop (vector residual) verification.
 

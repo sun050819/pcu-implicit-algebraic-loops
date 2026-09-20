@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_11_fulltable: CEC2017 F1-F30 full-table structural identification sweep (review item: full-table of official benchmarks).
 

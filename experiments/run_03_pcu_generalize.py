@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_03_pcu_generalize.py - PCU generalization verification: extending to more periodic/quasi-periodic structures.
 

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_05_stats_strong.py - 50 runs statistical strengthening + de-oracled ablation matrix (v6.8).
 
 Four configurations (same benchmark 36 questions, same A^2EP offset, same perturbations):

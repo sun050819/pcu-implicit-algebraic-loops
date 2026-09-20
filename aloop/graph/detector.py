@@ -1,4 +1,4 @@
-"""(1) Cycle structure parsing layer: detection orchestration (outer-loop SCC + inner-loop enumeration + CI + parallel deduplication)."""
+﻿"""(1) Cycle structure parsing layer: detection orchestration (outer-loop SCC + inner-loop enumeration + CI + parallel deduplication)."""
 from __future__ import annotations
 
 from typing import Callable, Dict, List, Optional, Sequence, Tuple
@@ -10,7 +10,7 @@ from ..parallel.pool import map_parallel
 from .gabow_scc import gabow_scc
 from .tarjan_scc import tarjan_scc, tarjan_scc_memopt
 from .cycles import inner_cycles_from, enumerate_cycles_plain, enumerate_cycles_bidir
-from .ci import ci_components, compute_ci, get_hastn_config
+from .ci import ci_components, compute_ci, get_ci_config
 
 
 def _scc_groups(n: int, adj: np.ndarray, method: str = "gabow"):
@@ -115,7 +115,7 @@ def detect_loops(n: int, adj: np.ndarray, bt: Optional[np.ndarray] = None,
                 ci = _loop_ci_numeric(g, n, adj, node_fn, x0)
             else:
                 ci = _loop_ci_structural(g, adj)
-        outer.append(Loop(nodes=g, ci=ci, tier=get_hastn_config(ci)["tier"],
+        outer.append(Loop(nodes=g, ci=ci, tier=get_ci_config(ci)["tier"],
                           is_inner=False, scc_id=cid))
 
     # Inner-loop enumeration (parallelizable)
@@ -142,7 +142,7 @@ def detect_loops(n: int, adj: np.ndarray, bt: Optional[np.ndarray] = None,
                     ci = _loop_ci_numeric(cyc, n, adj, node_fn, x0)
                 else:
                     ci = _loop_ci_structural(cyc, adj)
-            inner.append(Loop(nodes=cyc, ci=ci, tier=get_hastn_config(ci)["tier"],
+            inner.append(Loop(nodes=cyc, ci=ci, tier=get_ci_config(ci)["tier"],
                               is_inner=True, scc_id=-1,
                               meta={"scc_nodes": g}))
 

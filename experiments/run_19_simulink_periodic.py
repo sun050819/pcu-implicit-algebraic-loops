@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 """run_19_simulink_periodic.py - Real Simulink periodic algebraic loop + PCU end-to-end validation.
 

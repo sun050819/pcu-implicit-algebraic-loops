@@ -1,4 +1,4 @@
-"""Robust solving layer: legacy three-stage hybrid solver + hybrid baseline.
+﻿"""Robust solving layer: legacy three-stage hybrid solver + hybrid baseline.
 
 (Hybrid Adaptive Simulated-annealing Trust-region Newton; 
     (1) Fast path Trust-Region Newton - converges directly for well-conditioned/low CI, zero extra overhead;
@@ -16,7 +16,7 @@ from typing import Callable, Dict, Optional
 
 import numpy as np
 
-from ..graph.ci import get_hastn_config
+from ..graph.ci import get_ci_config
 from .newton import (trust_region, vanilla_newton, damped_newton,
                      levenberg_marquardt)
 from .sa import simple_sa, adaptive_sa
@@ -36,7 +36,7 @@ def hast_n(func, grad, hess, x0, tol=1e-8, max_iter=2000, cfg: Optional[Dict] = 
            n_workers: int = 1) -> Dict:
     """Three-stage: fast path TR-Newton -> CI-adaptive single long-trajectory SA -> multi-elite TR refinement.
 
-cfg (provided by get_hastn_config(ci)): T0 / alpha / sigma / n_restarts / tier.
+cfg (provided by get_ci_config(ci)): T0 / alpha / sigma / n_restarts / tier.
 When cfg is not provided, high-difficulty default parameters are used.
 
 v2.3.2: when n_workers>1, the refinement stage performs multi-elite parallel TR-Newton (ThreadPoolExecutor,
@@ -129,7 +129,7 @@ Full-version improvements (relative to earlier versions):
 
 def hast_n_ci_adaptive(func, grad, hess, x0, ci: float, tol=1e-8, max_iter=2000) -> Dict:
     """CI-adaptive entry: automatically selects the three-stage configuration according to CI."""
-    cfg = get_hastn_config(ci)
+    cfg = get_ci_config(ci)
     res = hast_n(func, grad, hess, x0, tol=tol, max_iter=max_iter, cfg=cfg)
     res["tier"] = cfg["tier"]
     return res

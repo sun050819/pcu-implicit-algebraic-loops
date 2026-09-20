@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """run_41_cec_matrix_norm: record the CEC2017 f5 (30D) raw/orthogonalized
 matrix norms used in the paper (Sec. V-B, paragraph on the raw/orth asymmetry).
 
