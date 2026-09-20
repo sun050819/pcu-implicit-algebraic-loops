@@ -124,8 +124,6 @@ other result files are produced by the 44 `run_*.py` scripts
 
 ## Notes
 
-- Authors: Jichen Sun (first author) and Shiyi Yi (corresponding author),
-  College of Art and Information Engineering, Dalian Polytechnic University.
 - MATLAB/Simulink is used only as the validation tool for algebraic-loop
   solving; the method itself is tool-agnostic.
 
