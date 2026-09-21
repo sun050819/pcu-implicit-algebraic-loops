@@ -90,3 +90,4 @@ experiments/paper_smoke.py
 
 # Run logs
 experiments/results/run_*_log.txt
+experiments/results/gate*_log.txt

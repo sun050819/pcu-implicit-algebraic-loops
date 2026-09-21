@@ -1,0 +1,59 @@
+{
+  "dimensions": 30,
+  "n_runs": 10,
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920,
+    20260921
+  ],
+  "families": [
+    {
+      "name": "Rastrigin (f5 M_orth)",
+      "triggers": 0,
+      "hits": 0,
+      "n_runs": 10,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0,
+      "median_f": null
+    },
+    {
+      "name": "Triple cosine",
+      "triggers": 10,
+      "hits": 10,
+      "n_runs": 10,
+      "trigger_rate": 1.0,
+      "hit_rate_when_triggered": 1.0,
+      "median_f": -15.296016160119622
+    },
+    {
+      "name": "Modulated Rastrigin",
+      "triggers": 10,
+      "hits": 10,
+      "n_runs": 10,
+      "trigger_rate": 1.0,
+      "hit_rate_when_triggered": 1.0,
+      "median_f": 1.2455399597934373e-06
+    },
+    {
+      "name": "Non-uniform period",
+      "triggers": 9,
+      "hits": 9,
+      "n_runs": 10,
+      "trigger_rate": 0.9,
+      "hit_rate_when_triggered": 1.0,
+      "median_f": 3.830257000458914e-09
+    }
+  ],
+  "raw_orth": {
+    "raw_triggers": 0,
+    "orth_triggers": 10,
+    "orth_hits": 10
+  }
+}
