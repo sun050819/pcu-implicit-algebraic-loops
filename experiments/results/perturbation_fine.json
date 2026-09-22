@@ -1,0 +1,106 @@
+{
+  "dimensions": 30,
+  "n_runs": 10,
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920,
+    20260921
+  ],
+  "levels": [
+    {
+      "alpha": 0.0,
+      "nonorthogonality": 6.328951840323161e-15,
+      "triggers": 10,
+      "hits": 10,
+      "trigger_rate": 1.0,
+      "hit_rate_when_triggered": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "nonorthogonality": 0.04827693585815763,
+      "triggers": 6,
+      "hits": 6,
+      "trigger_rate": 0.6,
+      "hit_rate_when_triggered": 1.0
+    },
+    {
+      "alpha": 0.02,
+      "nonorthogonality": 0.0969658137954451,
+      "triggers": 2,
+      "hits": 2,
+      "trigger_rate": 0.2,
+      "hit_rate_when_triggered": 1.0
+    },
+    {
+      "alpha": 0.03,
+      "nonorthogonality": 0.1460667950109706,
+      "triggers": 3,
+      "hits": 3,
+      "trigger_rate": 0.3,
+      "hit_rate_when_triggered": 1.0
+    },
+    {
+      "alpha": 0.04,
+      "nonorthogonality": 0.19558003798691984,
+      "triggers": 1,
+      "hits": 1,
+      "trigger_rate": 0.1,
+      "hit_rate_when_triggered": 1.0
+    },
+    {
+      "alpha": 0.05,
+      "nonorthogonality": 0.24550569854469867,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    },
+    {
+      "alpha": 0.06,
+      "nonorthogonality": 0.2958439298997222,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    },
+    {
+      "alpha": 0.07,
+      "nonorthogonality": 0.34659488271486394,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    },
+    {
+      "alpha": 0.08,
+      "nonorthogonality": 0.39775870515262335,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    },
+    {
+      "alpha": 0.09,
+      "nonorthogonality": 0.4493355429260347,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    },
+    {
+      "alpha": 0.1,
+      "nonorthogonality": 0.5013255393483597,
+      "triggers": 0,
+      "hits": 0,
+      "trigger_rate": 0.0,
+      "hit_rate_when_triggered": 0
+    }
+  ]
+}
