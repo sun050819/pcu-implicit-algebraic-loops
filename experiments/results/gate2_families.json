@@ -1,59 +1,430 @@
 {
-  "dimensions": 30,
-  "n_runs": 10,
-  "seeds": [
-    20260912,
-    20260913,
-    20260914,
-    20260915,
-    20260916,
-    20260917,
-    20260918,
-    20260919,
-    20260920,
-    20260921
-  ],
-  "families": [
+ "dimensions": 30,
+ "n_runs": 10,
+ "seeds": [
+  20260912,
+  20260913,
+  20260914,
+  20260915,
+  20260916,
+  20260917,
+  20260918,
+  20260919,
+  20260920,
+  20260921
+ ],
+ "protocol": "near-solution starts: x0 = center + U(-5,5)^D (Section V-B); rot uses run_51 QR(det=+1)",
+ "families": [
+  {
+   "name": "Rastrigin (f5 M_orth)",
+   "triggers": 10,
+   "hits": 10,
+   "n_runs": 10,
+   "trigger_rate": 1.0,
+   "hit_rate_when_triggered": 1.0,
+   "median_f": 2.7882105513299393e-09,
+   "rows": [
     {
-      "name": "Rastrigin (f5 M_orth)",
-      "triggers": 0,
-      "hits": 0,
-      "n_runs": 10,
-      "trigger_rate": 0.0,
-      "hit_rate_when_triggered": 0,
-      "median_f": null
+     "seed": 20260912,
+     "trigger": true,
+     "hit": true,
+     "F": 3.3103813024126794e-09,
+     "elapsed_s": 1.36
     },
     {
-      "name": "Triple cosine",
-      "triggers": 10,
-      "hits": 10,
-      "n_runs": 10,
-      "trigger_rate": 1.0,
-      "hit_rate_when_triggered": 1.0,
-      "median_f": -15.296016160119622
+     "seed": 20260913,
+     "trigger": true,
+     "hit": true,
+     "F": 2.809365184930357e-09,
+     "elapsed_s": 1.52
     },
     {
-      "name": "Modulated Rastrigin",
-      "triggers": 10,
-      "hits": 10,
-      "n_runs": 10,
-      "trigger_rate": 1.0,
-      "hit_rate_when_triggered": 1.0,
-      "median_f": 1.2455399597934373e-06
+     "seed": 20260914,
+     "trigger": true,
+     "hit": true,
+     "F": 2.7543851643940798e-09,
+     "elapsed_s": 1.45
     },
     {
-      "name": "Non-uniform period",
-      "triggers": 9,
-      "hits": 9,
-      "n_runs": 10,
-      "trigger_rate": 0.9,
-      "hit_rate_when_triggered": 1.0,
-      "median_f": 3.830257000458914e-09
+     "seed": 20260915,
+     "trigger": true,
+     "hit": true,
+     "F": 3.0086866331657802e-09,
+     "elapsed_s": 1.46
+    },
+    {
+     "seed": 20260916,
+     "trigger": true,
+     "hit": true,
+     "F": 2.5276580828403894e-09,
+     "elapsed_s": 1.38
+    },
+    {
+     "seed": 20260917,
+     "trigger": true,
+     "hit": true,
+     "F": 2.7670559177295218e-09,
+     "elapsed_s": 1.37
+    },
+    {
+     "seed": 20260918,
+     "trigger": true,
+     "hit": true,
+     "F": 2.918778108096376e-09,
+     "elapsed_s": 1.41
+    },
+    {
+     "seed": 20260919,
+     "trigger": true,
+     "hit": true,
+     "F": 2.5564208527839583e-09,
+     "elapsed_s": 1.42
+    },
+    {
+     "seed": 20260920,
+     "trigger": true,
+     "hit": true,
+     "F": 3.4736906684429414e-09,
+     "elapsed_s": 1.44
+    },
+    {
+     "seed": 20260921,
+     "trigger": true,
+     "hit": true,
+     "F": 2.293097267624944e-09,
+     "elapsed_s": 1.44
     }
-  ],
-  "raw_orth": {
-    "raw_triggers": 0,
-    "orth_triggers": 10,
-    "orth_hits": 10
+   ]
+  },
+  {
+   "name": "Triple cosine",
+   "triggers": 10,
+   "hits": 10,
+   "n_runs": 10,
+   "trigger_rate": 1.0,
+   "hit_rate_when_triggered": 1.0,
+   "median_f": -15.296016186046224,
+   "rows": [
+    {
+     "seed": 20260912,
+     "trigger": true,
+     "hit": true,
+     "F": -15.296016164203458,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260913,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601620044589,
+     "elapsed_s": 0.23
+    },
+    {
+     "seed": 20260914,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601619122907,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260915,
+     "trigger": true,
+     "hit": true,
+     "F": -15.296016185954034,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260916,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601611184554,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260917,
+     "trigger": true,
+     "hit": true,
+     "F": -15.296016186138411,
+     "elapsed_s": 0.25
+    },
+    {
+     "seed": 20260918,
+     "trigger": true,
+     "hit": true,
+     "F": -15.296016192796797,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260919,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601617190231,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260920,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601614667449,
+     "elapsed_s": 0.24
+    },
+    {
+     "seed": 20260921,
+     "trigger": true,
+     "hit": true,
+     "F": -15.29601619128519,
+     "elapsed_s": 0.24
+    }
+   ]
+  },
+  {
+   "name": "Modulated Rastrigin",
+   "triggers": 10,
+   "hits": 10,
+   "n_runs": 10,
+   "trigger_rate": 1.0,
+   "hit_rate_when_triggered": 1.0,
+   "median_f": 1.2280569605759139e-06,
+   "rows": [
+    {
+     "seed": 20260912,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2232066393502607e-06,
+     "elapsed_s": 0.98
+    },
+    {
+     "seed": 20260913,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2241469812426761e-06,
+     "elapsed_s": 0.63
+    },
+    {
+     "seed": 20260914,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2669623352854185e-06,
+     "elapsed_s": 0.98
+    },
+    {
+     "seed": 20260915,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2348264447597566e-06,
+     "elapsed_s": 0.98
+    },
+    {
+     "seed": 20260916,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2585078838918565e-06,
+     "elapsed_s": 0.97
+    },
+    {
+     "seed": 20260917,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2319669399091516e-06,
+     "elapsed_s": 0.98
+    },
+    {
+     "seed": 20260918,
+     "trigger": true,
+     "hit": true,
+     "F": 1.277306361698297e-06,
+     "elapsed_s": 0.91
+    },
+    {
+     "seed": 20260919,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2154887881849457e-06,
+     "elapsed_s": 0.94
+    },
+    {
+     "seed": 20260920,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2097727209823922e-06,
+     "elapsed_s": 0.92
+    },
+    {
+     "seed": 20260921,
+     "trigger": true,
+     "hit": true,
+     "F": 1.1681599165448941e-06,
+     "elapsed_s": 0.92
+    }
+   ]
+  },
+  {
+   "name": "Modulated Rastrigin (rot.)",
+   "triggers": 10,
+   "hits": 10,
+   "n_runs": 10,
+   "trigger_rate": 1.0,
+   "hit_rate_when_triggered": 1.0,
+   "median_f": 1.254322121817132e-06,
+   "rows": [
+    {
+     "seed": 20260912,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2344326296172446e-06,
+     "elapsed_s": 1.88
+    },
+    {
+     "seed": 20260913,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2413877970307867e-06,
+     "elapsed_s": 1.18
+    },
+    {
+     "seed": 20260914,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2707869814580183e-06,
+     "elapsed_s": 1.84
+    },
+    {
+     "seed": 20260915,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2665913185683372e-06,
+     "elapsed_s": 1.85
+    },
+    {
+     "seed": 20260916,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2449302859503299e-06,
+     "elapsed_s": 1.83
+    },
+    {
+     "seed": 20260917,
+     "trigger": true,
+     "hit": true,
+     "F": 1.241848715475227e-06,
+     "elapsed_s": 1.95
+    },
+    {
+     "seed": 20260918,
+     "trigger": true,
+     "hit": true,
+     "F": 1.255322046581015e-06,
+     "elapsed_s": 1.82
+    },
+    {
+     "seed": 20260919,
+     "trigger": true,
+     "hit": true,
+     "F": 1.259046288243739e-06,
+     "elapsed_s": 1.9
+    },
+    {
+     "seed": 20260920,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2672762394341597e-06,
+     "elapsed_s": 2.01
+    },
+    {
+     "seed": 20260921,
+     "trigger": true,
+     "hit": true,
+     "F": 1.2533221970532486e-06,
+     "elapsed_s": 1.86
+    }
+   ]
+  },
+  {
+   "name": "Non-uniform period",
+   "triggers": 9,
+   "hits": 9,
+   "n_runs": 10,
+   "trigger_rate": 0.9,
+   "hit_rate_when_triggered": 1.0,
+   "median_f": 4.068809289492492e-09,
+   "rows": [
+    {
+     "seed": 20260912,
+     "trigger": true,
+     "hit": true,
+     "F": 4.111413431928668e-09,
+     "elapsed_s": 0.93
+    },
+    {
+     "seed": 20260913,
+     "trigger": false,
+     "hit": false,
+     "F": null,
+     "elapsed_s": 0.75
+    },
+    {
+     "seed": 20260914,
+     "trigger": true,
+     "hit": true,
+     "F": 4.655616336890489e-09,
+     "elapsed_s": 0.92
+    },
+    {
+     "seed": 20260915,
+     "trigger": true,
+     "hit": true,
+     "F": 4.004155229608841e-09,
+     "elapsed_s": 0.93
+    },
+    {
+     "seed": 20260916,
+     "trigger": true,
+     "hit": true,
+     "F": 4.068809289492492e-09,
+     "elapsed_s": 0.89
+    },
+    {
+     "seed": 20260917,
+     "trigger": true,
+     "hit": true,
+     "F": 3.0881253110237594e-09,
+     "elapsed_s": 0.91
+    },
+    {
+     "seed": 20260918,
+     "trigger": true,
+     "hit": true,
+     "F": 4.383700513699296e-09,
+     "elapsed_s": 0.93
+    },
+    {
+     "seed": 20260919,
+     "trigger": true,
+     "hit": true,
+     "F": 3.907612011744277e-09,
+     "elapsed_s": 0.91
+    },
+    {
+     "seed": 20260920,
+     "trigger": true,
+     "hit": true,
+     "F": 4.304704148694327e-09,
+     "elapsed_s": 0.92
+    },
+    {
+     "seed": 20260921,
+     "trigger": true,
+     "hit": true,
+     "F": 3.3993359238593257e-09,
+     "elapsed_s": 0.91
+    }
+   ]
   }
+ ],
+ "raw_orth": {
+  "raw_triggers": 0,
+  "orth_triggers": 10,
+  "orth_hits": 10
+ },
+ "elapsed_s": 121.6
 }

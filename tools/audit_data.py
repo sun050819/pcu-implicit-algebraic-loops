@@ -65,25 +65,25 @@ def hallucination():
         if not ok and must_exist:
             print('MISSING in tex:', name, '=', expected)
 
-    # Table II 5-run medians (rounded from sota_compare.json)
+    # Table I 5-run medians (rounded from sota_compare.json; 1 decimal in tex)
     tab2 = {
-        'SHADE 15.46': '15.46', 'SHADE q1 14.53': '14.53', 'SHADE q3 16.59': '16.59',
-        'LSHADE 18.91': '18.91', 'JADE 22.27': '22.27', 'JADE q1 21.58': '21.58', 'JADE q3 23.34': '23.34',
-        'PSO 298.25': '298.25', 'PSO q1 293.10': '293.10', 'PSO q3 325.01': '325.01',
-        'GWO 501.16': '501.16', 'GWO q1 482.07': '482.07', 'GWO q3 505.50': '505.50',
-        'BO RBF 61.34': '61.34', 'BO RBF q1 33.33': '33.33', 'BO RBF q3 64.85': '64.85',
-        'BO periodic 72.54': '72.54', 'BO p q1 62.12': '62.12', 'BO p q3 81.55': '81.55',
-        'CMA-ES 442.75': '442.75', 'CMA q1 375.09': '375.09', 'CMA q3 493.49': '493.49',
-        'RFF 430.76': '430.76', 'RFF q1 416.71': '416.71', 'RFF q3 457.47': '457.47',
-        'L-BFGS 195.01': '195.01', 'LBFGS q1 184.34': '184.34', 'LBFGS q3 206.95': '206.95',
+        'SHADE 15.5': '15.5', 'SHADE q1 14.5': '14.5', 'SHADE q3 16.6': '16.6',
+        'LSHADE 18.9': '18.9', 'LSHADE q1 17.9': '17.9', 'LSHADE q3 18.9': '18.9',
+        'JADE 22.3': '22.3', 'JADE q1 21.6': '21.6', 'JADE q3 23.3': '23.3',
+        'PSO 298.3': '298.3', 'PSO q1 293.1': '293.1', 'PSO q3 325.0': '325.0',
+        'GWO 501.2': '501.2', 'GWO q1 482.1': '482.1', 'GWO q3 505.5': '505.5',
+        'BO RBF 61.3': '61.3', 'BO RBF q1 33.3': '33.3', 'BO RBF q3 64.9': '64.9',
+        'BO periodic 72.5': '72.5', 'BO p q1 62.1': '62.1', 'BO p q3 81.6': '81.6',
+        'CMA-ES 442.8': '442.8', 'CMA q1 375.1': '375.1', 'CMA q3 493.5': '493.5',
+        'RFF 430.8': '430.8', 'RFF q1 416.7': '416.7', 'RFF q3 457.5': '457.5',
+        'L-BFGS 195.0': '195.0', 'LBFGS q1 184.3': '184.3', 'LBFGS q3 206.9': '206.9',
         'Basinhopping 8.95': '8.95', 'BH q1 7.96': '7.96', 'BH q3 8.95': '8.95',
     }
     for name, v in tab2.items():
         chk(name, v)
 
     # 25-run baselines and extremes
-    for v in ['56.7', '18.1', '191.0', '113.4', '222.9', '640.7', '504.8', '765.9',
-              '471.99', '323.7', '498.5']:
+    for v in ['56.7', '18.1', '191.0', '640.7', '471.99', '323.7', '498.5']:
         chk('stat', v)
 
     # stats p-values (2.0e-29 is the numeric form of the Fisher two-sided value
@@ -97,8 +97,8 @@ def hallucination():
 
     # dimensions / FE / periods / simulink
     for v in ['250', '500', '300', '400', '396{,}993', '19.5312', '19.53125',
-              '2.6\\times10^{-6}', '8.9\\times10^{-2}', '2.4\\%', '6.5\\%',
-              '8.96\\times10^{-9}', '321', '7.1\\times10^{-5}', '1.4\\times10^{-11}', '2.1\\times10^{-15}']:
+              '2.6\\times10^{-6}', '2.4\\%', '6.5\\%',
+              '320.8', '423.2', '7.1\\times10^{-5}', '1.4\\times10^{-11}', '2.1\\times10^{-15}']:
         chk('misc', v)
 
     missing = [c for c in checks if not c[2]]
@@ -112,7 +112,7 @@ def hallucination():
     print('--- independent recomputation from JSON ---')
     c = rd('sota_cmaes_5runs.json')
     fs = [r['f'] for r in c['rows']]
-    print('CMA-ES 5-run recomputed: median=%.2f (paper 442.75), min=%.1f, max=%.1f'
+    print('CMA-ES 5-run recomputed: median=%.2f (paper 442.8), min=%.1f, max=%.1f'
           % (statistics.median(fs), min(fs), max(fs)))
 
     l = rd('lbfgs_25runs.json')

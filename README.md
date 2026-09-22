@@ -2,7 +2,7 @@
 
 Companion repository for the manuscript:
 
-> **Periodic Coordinate Unwrapping: Structure-Aware Optimization for a Class of Periodic Implicit Algebraic Loops** (submitted to IEEE Transactions on Evolutionary Computation)
+> **Periodic Coordinate Unwrapping: A Structure-Aware Operator for Evolutionary Search on Periodic Multimodal Landscapes** (submitted to IEEE Transactions on Evolutionary Computation)
 
 PCU is a structure-aware optimization framework for a class of periodic implicit algebraic loops. Instead of blind black-box sampling, it (i) identifies the periodic structure of the least-squares objective along Hessian-diagonal directions (with rotation recovery), and (ii) generates candidate roots by zero-crossing detection at interpolated peaks. The paper states four propositions that separate strict guarantees from falsifiable conditions and negative diagnostics, and validates end-to-end on CEC2017 (60 configurations), up to 500D, and Simulink periodic algebraic loops.
 
@@ -13,8 +13,8 @@ PCU is a structure-aware optimization framework for a class of periodic implicit
 ```
 aloop/                        # core implementation (structure identification, PCU, solvers)
 experiments/
-  run_00.py .. run_43.py      # one script per experiment, run in order
-  results/                      # 59 raw result files (49 JSON + 8 CSV + 2 logs, authoritative data)
+  run_00.py .. run_52.py      # one script per experiment, run in order
+  results/                      # 74 raw result files (59 JSON + 8 CSV + 2 logs + 5 txt, authoritative data)
   simulink/                     # MATLAB/Simulink model scripts (runs 06/19/23)
 third_party/cec2017/          # official CEC2017 benchmark package (incl. data.pkl)
 tools/
@@ -72,20 +72,29 @@ python -X utf8 experiments/run_32_vote_ablation.py
 # 8. PCU-EA integration (new; initialization-gain plus stagnation-restart ablation)
 python -X utf8 experiments/run_43_pcu_restart_ablation.py   # fast: 100k FE, 5 seeds, restart boundary
 python -X utf8 experiments/run_42_pcu_ea_hybrid.py          # 100,000 FE, 10 seeds, trigger-rate accounting
+
+# 9. EA-initialization gain and function-family generalization (100 seeds; 10 seeds)
+python -X utf8 experiments/run_48_gate1_eainit_100seeds.py  # 100-seed trigger panel (Table V)
+python -X utf8 experiments/run_49_gate1_modrastrigin.py     # modulated Rastrigin (diag.)
+python -X utf8 experiments/run_51_gate1_modrastrigin_rotated.py  # modulated Rastrigin (rot.)
+python -X utf8 experiments/run_52_gate2b_families.py        # Table IV family generalization (near-solution starts)
 ```
 
 Scripts write into `experiments/results/` and are idempotent: re-running
-reproduces the same JSON when the fixed seeds are kept. All 44 `run_*.py`
+reproduces the same JSON when the fixed seeds are kept. All 53 `run_*.py`
 scripts in `experiments/` (including `run_09` finite-difference, `run_11`
 full 60-config CEC table, `run_16` data profile, `run_25` CMA-ES trajectories,
 `run_35` multistart Newton, `run_36` CPU high-dim reruns, `run_41` CEC matrix
 norms, `run_42` PCU+EA hybrid (PCU candidates feeding CMA-ES/SHADE, with
 trigger-rate accounting), `run_43` PCU-vs-random stagnation-restart ablation,
-and the GPU variants
-`run_27/30/34/40`) feed the 59 committed result files
+`run_44/47/48/49/51` gate-1 EA-initialization panels (100 seeds),
+`run_45/52` gate-2 function-family generalization,
+`run_46/50` perturbation-decay, and the GPU variants
+`run_27/30/34/40`) feed the 74 committed result files
 (generator mapping per file in the provenance paragraph below; running
 `run_42`/`run_43` additionally writes `pcu_ea_hybrid.json` and
-`pcu_restart_ablation.json`); the pipelines
+`pcu_restart_ablation.json`; `run_45`/`run_52` write `gate2_families.json`,
+`run_48` writes `gate1_eainit_100seeds.json`); the pipelines
 above cover every figure and table of the paper.
 
 ## Data provenance (every number in the paper)
@@ -105,7 +114,7 @@ skips the paper-vs-JSON backtrace and only the structural cross-check runs;
 the committed result files remain independently verifiable via the JSON
 recomputation section of the audit script.
 
-Of the 59 result files, ten GPU/orth records
+Of the 74 result files, ten GPU/orth records
 (`gpu_*`, `orth500_round3.json`, `pcu_gpu_*`) were captured from GPU
 sessions and support the 250-500-D results in the paper; the identical
 protocol is re-runnable via the GPU repro scripts in `experiments/repro/`
@@ -118,14 +127,20 @@ aggregation views of the raw JSON. `pcu_vs_v54`,
 `pcu_integrated`, and `sota_compare_summary.json` are early
 integrated-baseline records (column names such as `hgca_v67`/`hgca_v54` refer
 to historical solver versions of this project) kept for completeness; all
-other result files are produced by the 44 `run_*.py` scripts
+other result files are produced by the 53 `run_*.py` scripts
 (`run_42` writes `pcu_ea_hybrid.json`, `run_43` writes
-`pcu_restart_ablation.json` when executed).
+`pcu_restart_ablation.json`, `run_45/52` write `gate2_families.json` when
+executed).
 
 ## Notes
 
 - MATLAB/Simulink is used only as the validation tool for algebraic-loop
   solving; the method itself is tool-agnostic.
+- FE accounting: evolutionary runs are charged at generation granularity, so
+  the recorded `fe_used` may exceed the nominal budget by at most ~0.25%
+  (e.g., +5 FE on the 396,993-FE gate-1 panels). Basinhopping is the single
+  explicitly over-budget baseline (865k-882k FE) and is flagged in the paper;
+  every result file records the true `fe_used` per run.
 
 
 ## License
