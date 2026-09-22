@@ -49,6 +49,19 @@ def structural():
     sr = load('supplementary_round3.json')
     print('\nsupplementary_round3 keys:', list(sr.keys())[:10])
 
+    # Fig. 2: real Hessian-diagonal scans must reproduce the raw/orth asymmetry
+    f2 = load('fig2_hessian_scan.json')
+    pk_raw, pk_ort = f2['raw']['dom_peak_fT'], f2['orth']['dom_peak_fT']
+    chk('fig2 raw has NO consensus period (dom peak f*T != 1)', abs(pk_raw - 1.0) > 0.1,
+        'raw dom f*T=%.3f' % pk_raw)
+    chk('fig2 orth dominant peak at f*T=1', abs(pk_ort - 1.0) < 0.05,
+        'orth dom f*T=%.3f' % pk_ort)
+
+    miss = [c for c in checks if not c[1]]
+    print('\n=== structural audit: %d checks, %d missing ===' % (len(checks), len(miss)))
+    for m in miss:
+        print('MISS:', m[0], m[2])
+
 # ============ part 2: hallucination backtrace ============
 def hallucination():
     if not os.path.exists(TEX):
