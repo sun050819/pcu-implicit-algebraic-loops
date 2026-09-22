@@ -69,9 +69,9 @@ python -X utf8 experiments/run_32_vote_ablation.py
 # 7. Simulink periodic algebraic loops (requires MATLAB)
 #    run_19_simulink_periodic.py, run_23_simulink_nonsep.py
 
-# 8. PCU--EA integration (new; initialization-gain plus stagnation-restart ablation)
+# 8. PCU-EA integration (new; initialization-gain plus stagnation-restart ablation)
 python -X utf8 experiments/run_43_pcu_restart_ablation.py   # fast: 100k FE, 5 seeds, restart boundary
-python -X utf8 experiments/run_42_pcu_ea_hybrid.py          # 100,000 FE, 10 seeds, trigger accounting, trigger accounting
+python -X utf8 experiments/run_42_pcu_ea_hybrid.py          # 100,000 FE, 10 seeds, trigger-rate accounting
 ```
 
 Scripts write into `experiments/results/` and are idempotent: re-running
